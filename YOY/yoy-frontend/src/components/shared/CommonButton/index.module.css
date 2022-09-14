@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  background-color: #67fd65;
+  border-radius: 28px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.container:hover {
+  background-color: #3e337d;
+  border: 3px solid #67fd65;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Epilogue", sans-serif;
+  color: #0e095c;
+}
+
+.container:hover .title {
+  color: #ffffff;
+}
+
+/* For Large devices ( less than 1500px) */
+
+@media (max-width: 1550px) {
+  .container {
+    display: flex;
+    padding: 16px;
+    width: 100%;
+    height: 100%;
+    background-color: #67fd65;
+    border-radius: 22px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .container:hover {
+    background-color: #3e337d;
+    border: 2px solid #67fd65;
+  }
+
+  .title {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Epilogue", sans-serif;
+    color: #0e095c;
+  }
+}
+
+/* For small devices ( less than 768px) */
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: #67fd65;
+    border-radius: 18px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .container:hover {
+    background-color: #3e337d;
+    border: 1px solid #67fd65;
+  }
+
+  .title {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Epilogue", sans-serif;
+    color: #0e095c;
+  }
+}

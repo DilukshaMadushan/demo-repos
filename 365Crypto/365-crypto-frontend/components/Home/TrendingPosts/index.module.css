@@ -1,0 +1,40 @@
+.titleAndBtn {
+	background-color: rgba(0, 255, 255, 0);
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 12px;
+	margin-bottom: 25px;
+	padding-right: 5px;
+}
+.title {
+	color: white;
+
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	font-size: 20px;
+	font-weight: 600;
+}
+.btn {
+	margin-right: 5px;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.postcontainer {
+	display: flex;
+	flex-direction: column;
+}
+@media (max-width: 768px) {
+	.title {
+		font-size: 16px;
+		font-weight: 600;
+	}
+	.btn {
+		font-size: 12px;
+	}
+	.titleAndBtn {
+		padding-right: 0;
+	}
+}

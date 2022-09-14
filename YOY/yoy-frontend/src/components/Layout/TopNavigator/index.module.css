@@ -1,0 +1,573 @@
+.topNavContainer {
+  position: relative;
+  z-index: 10;
+}
+
+.topNavBar {
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0;
+  height: 107px;
+  width: 100%;
+  background-color: #07002e;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftContainer {
+  display: flex;
+  position: fixed;
+  top: 0px;
+  left: 14px;
+  flex-direction: row;
+  margin-left: 18px;
+}
+.logoContainer {
+  display: flex;
+
+  width: 219px;
+  height: 107px;
+  border-bottom-left-radius: 33px;
+  border-bottom-right-radius: 33px;
+  background-color: #67fd65;
+  opacity: 1;
+  cursor: pointer;
+
+  justify-content: center;
+  align-items: center;
+}
+.logoImageContainerHover {
+  display: none;
+}
+.logoContainer:hover {
+  background: transparent linear-gradient(269deg, #0e095c 0%, #67fd65 100%) 0%
+    0% no-repeat padding-box;
+}
+.logoContainer:hover .logoImageContainer {
+  display: none;
+}
+.logoContainer:hover .logoImageContainerHover {
+  display: block;
+  width: 159px;
+}
+.logoContainer:hover .logoImageContainerHover > span {
+  position: unset !important;
+}
+
+.logoImageContainer {
+  width: 159px;
+}
+.logoImageContainer > span {
+  position: unset !important;
+}
+.image {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+}
+
+.searchBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.searchBox i {
+  font-size: 36px;
+  color: #ffffff;
+  margin-left: 50px;
+  font-weight: 200;
+}
+.searchBox h6 {
+  font-size: 24px;
+  color: #ffffff;
+  margin: 0;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 500;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.menuItem {
+  display: flex;
+  flex-direction: row;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.menuItemActive {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 3px solid #67fd65;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.tvImage {
+  width: 28px;
+  height: 26px;
+}
+.odImage {
+  width: 26px;
+  height: 26px;
+}
+.radioImage {
+  width: 26px;
+  height: 26px;
+}
+.gameImage {
+  width: 38px;
+  height: 26px;
+}
+.menuItem h6 {
+  color: #ffffff;
+  margin: 0;
+  margin-left: 10px;
+  margin-top: 2px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.menuItemActive h6 {
+  color: #67fd65;
+  margin: 0;
+  margin-left: 10px;
+  margin-top: 2px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.rightContainer {
+  display: flex;
+  position: fixed;
+  right: 89px;
+  flex-direction: row;
+  align-items: center;
+  height: 107px;
+}
+.userNameContainer {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.rightContainer h6 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 0;
+  margin-right: 15px;
+}
+.profileButtonContainer {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  border: 2px solid #67fd65;
+  cursor: pointer;
+  /* margin-right: 89px; */
+}
+.profileButtonContainer img {
+  width: 56px;
+  height: 56px;
+  border-radius: 29px;
+  object-fit: contain;
+}
+
+.dropDownContainer {
+  display: none;
+}
+.rightContainer:hover .dropDownContainer {
+  display: block;
+  position: fixed;
+  top: 98px;
+  right: 89px;
+  background-color: #3e337d;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  transition: display 0.5s;
+}
+.dropDownContainer:hover {
+  display: block;
+  position: fixed;
+  top: 100px;
+  right: 89px;
+  background-color: #3e337d;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  transition: display 0.5s;
+}
+.dropDownItem h6 {
+  color: #ffffff;
+  margin: 0;
+  font-size: 22px;
+  font-weight: 400;
+  padding-left: 19px;
+  padding-right: 19px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  cursor: pointer;
+}
+.dropDownItem h6:hover {
+  color: #67fd65;
+}
+
+/* For Large devices ( less than 1500px) */
+
+@media (max-width: 1550px) {
+  .topNavContainer {
+    position: relative;
+    z-index: 10;
+  }
+
+  .topNavBar {
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0;
+    height: 84px;
+    width: 100%;
+    background-color: #07002e;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .leftContainer {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 11px;
+    flex-direction: row;
+    margin-left: 14px;
+  }
+  .logoContainer {
+    display: flex;
+
+    width: 172px;
+    height: 84px;
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
+    background-color: #67fd65;
+    opacity: 1;
+
+    justify-content: center;
+    align-items: center;
+  }
+  .logoImageContainerHover {
+    display: none;
+  }
+  .logoContainer:hover {
+    background: transparent linear-gradient(269deg, #0e095c 0%, #67fd65 100%) 0%
+      0% no-repeat padding-box;
+  }
+  .logoContainer:hover .logoImageContainer {
+    display: none;
+  }
+  .logoContainer:hover .logoImageContainerHover {
+    display: block;
+    width: 125px;
+  }
+  .logoContainer:hover .logoImageContainerHover > span {
+    position: unset !important;
+  }
+
+  .logoImageContainer {
+    width: 125px;
+  }
+  .logoImageContainer > span {
+    position: unset !important;
+  }
+  .image {
+    object-fit: contain;
+    width: 100% !important;
+    position: relative !important;
+    height: unset !important;
+  }
+
+  .searchBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .searchBox i {
+    font-size: 28px;
+    color: #ffffff;
+    margin-left: 39px;
+    font-weight: 200;
+  }
+  .searchBox h6 {
+    font-size: 19px;
+    color: #ffffff;
+    margin: 0;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 500;
+    margin-left: 16px;
+    margin-top: 4px;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .menuItem {
+    display: flex;
+    flex-direction: row;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .menuItemActive {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 3px solid #67fd65;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  .menuItemActive h6 {
+    color: #67fd65;
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 2px;
+    font-size: 19px;
+    font-weight: 500;
+  }
+
+  .tvImage {
+    width: 22px;
+    height: 22px;
+  }
+  .odImage {
+    width: 20px;
+    height: 20px;
+  }
+  .radioImage {
+    width: 20px;
+    height: 20px;
+  }
+  .gameImage {
+    width: 30px;
+    height: 20px;
+  }
+  .menuItem h6 {
+    color: #ffffff;
+    margin: 0;
+    margin-left: 8px;
+    margin-top: 2px;
+    font-size: 19px;
+    font-weight: 500;
+  }
+
+  .rightContainer {
+    display: flex;
+    position: fixed;
+    right: 70px;
+    flex-direction: row;
+    align-items: center;
+    height: 84px;
+  }
+  .userNameContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .rightContainer h6 {
+    font-size: 19px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0;
+    margin-right: 12px;
+  }
+  .profileButtonContainer {
+    display: flex;
+    width: 47px;
+    height: 47px;
+    border-radius: 24px;
+    border: 2px solid #67fd65;
+    /* margin-right: 89px; */
+  }
+  .profileButtonContainer img {
+    width: 44px;
+    height: 44px;
+    border-radius: 23px;
+    object-fit: contain;
+  }
+
+  .dropDownContainer {
+    display: none;
+  }
+  .rightContainer:hover .dropDownContainer {
+    display: block;
+    position: fixed;
+    top: 77px;
+    right: 70px;
+    background-color: #3e337d;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    transition: display 0.5s;
+  }
+  .dropDownContainer:hover {
+    display: block;
+    position: fixed;
+    top: 77px;
+    right: 70px;
+    background-color: #3e337d;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    transition: display 0.5s;
+  }
+  .dropDownItem h6 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 17px;
+    font-weight: 400;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+  }
+  .dropDownItem h6:hover {
+    color: #67fd65;
+  }
+}
+
+/* For small devices ( less than 768px) */
+
+@media (max-width: 768px) {
+  .topNavContainer {
+    position: relative;
+    z-index: 10;
+  }
+
+  .topNavBar {
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0;
+    height: 63px;
+    width: 100%;
+    background-color: #07002e;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .leftContainer {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    flex-direction: row;
+    margin-left: 11px;
+  }
+  .logoContainer {
+    display: flex;
+
+    width: 129px;
+    height: 63px;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    background-color: #67fd65;
+    opacity: 1;
+
+    justify-content: center;
+    align-items: center;
+  }
+  .logoImageContainerHover {
+    display: none;
+  }
+  .logoContainer:hover {
+    background: transparent linear-gradient(269deg, #0e095c 0%, #67fd65 100%) 0%
+      0% no-repeat padding-box;
+  }
+  .logoContainer:hover .logoImageContainer {
+    display: none;
+  }
+  .logoContainer:hover .logoImageContainerHover {
+    display: block;
+    width: 94px;
+  }
+  .logoContainer:hover .logoImageContainerHover > span {
+    position: unset !important;
+  }
+
+  .logoImageContainer {
+    width: 94px;
+  }
+  .logoImageContainer > span {
+    position: unset !important;
+  }
+  .image {
+    object-fit: contain;
+    width: 100% !important;
+    position: relative !important;
+    height: unset !important;
+  }
+
+  .searchBox {
+    display: none;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .rightContainer {
+    display: flex;
+    position: fixed;
+    right: 10px;
+    flex-direction: row;
+    align-items: center;
+    height: 63px;
+  }
+  .userNameContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .rightContainer h6 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0;
+    margin-right: 9px;
+  }
+  .profileButtonContainer {
+    display: flex;
+    width: 34px;
+    height: 34px;
+    border-radius: 17px;
+    border: 2px solid #67fd65;
+    /* margin-right: 89px; */
+  }
+  .profileButtonContainer img {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    object-fit: contain;
+  }
+
+  .dropDownContainer {
+    display: none;
+  }
+  .rightContainer:hover .dropDownContainer {
+    display: none;
+  }
+  .dropDownContainer:hover {
+    display: none;
+  }
+}

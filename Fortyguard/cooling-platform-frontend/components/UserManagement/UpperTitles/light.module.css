@@ -1,0 +1,60 @@
+.mainDiv {
+	padding: 0;
+	margin: 0;
+}
+.bar {
+	background-color: rgba(220, 20, 60, 0);
+	height: 50px;
+	display: flex;
+	align-items: center;
+	padding: 0 0 0 20px;
+}
+.tickBox {
+	background-color: rgba(56, 175, 211, 0);
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	height: 50px;
+	width: 35px;
+}
+.chekBox {
+	color: #0092d000;
+}
+.infoDiv {
+	background-color: rgba(216, 96, 96, 0);
+	width: 100%;
+	display: flex;
+}
+.nameDiv {
+	background-color: #ecf0fb;
+	width: 30%;
+	height: 50px;
+	padding: 0 10px;
+	display: flex;
+	align-items: center;
+	color: #494d58;
+	font-size: 16px;
+	font-weight: 500;
+}
+.siteRoleDiv {
+	background-color: rgba(30, 210, 171, 0);
+	height: 50px;
+	width: 40%;
+	padding: 0 10px;
+	display: flex;
+	align-items: center;
+	color: #494d58;
+	font-size: 16px;
+	font-weight: 500;
+}
+.actionsDiv {
+	background-color: #ecf0fb;
+	width: 30%;
+	height: 50px;
+	padding: 0 10px;
+	display: flex;
+	align-items: center;
+	color: #494d58;
+	font-size: 16px;
+	font-weight: 500;
+}

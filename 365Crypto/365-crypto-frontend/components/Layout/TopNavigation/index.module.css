@@ -1,0 +1,105 @@
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-nav {
+  background: #15141b;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  position: relative;
+  box-shadow: 15px 0 25px 0 black;
+}
+
+.nav-link {
+  visibility: hidden;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav-right-div {
+  background-color: #15141b;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 4%;
+}
+
+.btn-notify {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2e303e;
+  border-radius: 6px;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+.btn-notify:hover {
+  background-color: #33b18a;
+}
+
+.btn-login {
+  padding-left: 15px;
+}
+.btn-profile {
+  padding-left: 15px;
+  /* background-color: #90b8ab; */
+  display: flex;
+}
+.primaryButton {
+  text-align: center;
+  font-family: Montserrat;
+  color: rgb(255, 255, 255);
+  background: #33b18a;
+  height: 40px;
+  width: 80px;
+  font-weight: 400;
+  border-radius: 6px;
+  text-decoration: none;
+  border: none;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+}
+.profileButton {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: Montserrat;
+  color: rgb(255, 255, 255);
+  background: none;
+  height: 40px;
+  width: 40px;
+  font-weight: 400;
+  font-size: 40px;
+  border-radius: 20px;
+  text-decoration: none;
+  border: none;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+}
+.arrowIcon {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.primaryButton:hover {
+  background-image: linear-gradient(135deg, #3ecb78, #35d09f);
+}
+
+@media (max-width: 1000px) {
+  .btn-login {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .modal {
+    background-color: black;
+  }
+}

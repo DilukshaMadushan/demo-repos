@@ -1,0 +1,62 @@
+.head-div {
+	background-color: #232327;
+	height: 50px;
+	width: 295px;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: small;
+}
+.buttonSelected {
+	background-color: #0e98ff;
+	height: 40px;
+	width: 95px;
+	border-radius: 6px;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.button {
+	background-color: #232327;
+	height: 40px;
+	width: 95px;
+	border-radius: 6px;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+}
+@media (max-width: 768px) {
+	.buttonSelected {
+		font-size: 14px;
+	}
+	.button {
+		font-size: 14px;
+	}
+}
+@media (max-width: 500px) {
+	.head-div {
+		width: 215px;
+	}
+
+	.buttonSelected {
+		width: 68px;
+		font-size: small;
+	}
+
+	.button {
+		width: 68px;
+		font-size: small;
+	}
+}

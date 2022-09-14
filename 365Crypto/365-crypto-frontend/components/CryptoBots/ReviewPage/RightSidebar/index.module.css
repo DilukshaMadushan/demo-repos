@@ -1,0 +1,283 @@
+/* ----- Loading comp styling start ----- */
+.loadingCardDiv {
+	background-color: #29292950;
+	width: 100%;
+	height: 150px;
+	border-radius: 15px;
+	margin-bottom: 20px;
+	padding: 15px 15px 15px 15px;
+	display: flex;
+}
+.loadingRightDiv {
+	background-color: rgba(137, 43, 226, 0);
+	width: 100%;
+	height: 120px;
+	display: flex;
+	flex-direction: column;
+}
+
+/* ----- Loading comp styling end ----- */
+
+.mainDiv {
+	margin: 30px 20px 20px 20px;
+}
+.titleDiv {
+	background-color: rgba(139, 0, 139, 0);
+	font-size: 20px;
+	height: 50px;
+	color: #fff;
+}
+.scrollDiv {
+	max-height: calc(85vh - 70px);
+	overflow-y: auto;
+	padding-right: 5px;
+}
+.scrollDiv::-webkit-scrollbar {
+	width: 4px;
+}
+.scrollDiv::-webkit-scrollbar-thumb {
+	width: 4px;
+	background: rgba(128, 128, 128, 0.5);
+	border-radius: 2px;
+}
+.cardDiv {
+	background-color: #232327;
+	width: 100%;
+	height: 150px;
+	border-radius: 15px;
+	margin-bottom: 20px;
+	padding: 15px 15px 15px 15px;
+	display: flex;
+}
+.leftDiv {
+	background-color: rgba(0, 0, 255, 0);
+	margin-right: 10px;
+}
+.img {
+	border-radius: 15px;
+	height: 120px;
+	width: 120px;
+	object-fit: cover;
+}
+.rightDiv {
+	background-color: rgba(137, 43, 226, 0);
+
+	height: 120px;
+	display: flex;
+	flex-direction: column;
+}
+.dateDiv {
+	background-color: rgba(0, 17, 255, 0);
+	font-size: 8px;
+	color: rgba(255, 255, 255, 0.5);
+}
+.cardTitleDiv {
+	background-color: rgba(255, 17, 0, 0);
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+.descript {
+	color: rgba(255, 255, 255, 0.5);
+	margin-top: 6px;
+	background-color: rgba(0, 255, 255, 0);
+	font-size: 8px;
+	max-height: 84px;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 7;
+	letter-spacing: 0.5px;
+}
+@media (max-width: 1200px) {
+	.scrollDiv {
+		max-height: calc(88vh - 70px);
+		overflow-y: scroll;
+	}
+}
+@media (max-width: 1000px) {
+	.mainDiv {
+		margin: 20px;
+	}
+	.titleDiv {
+		font-size: 20px;
+		color: #fff;
+		height: 50px;
+	}
+	.cardDiv {
+		background-color: #232327;
+		width: 100%;
+		height: 120px;
+		border-radius: 15px;
+		margin-bottom: 10px;
+		padding: 10px 10px 10px 10px;
+		display: flex;
+	}
+	.leftDiv {
+		background-color: rgba(0, 0, 255, 0);
+		margin-right: 10px;
+	}
+	.img {
+		border-radius: 15px;
+		height: 100px;
+		width: 100px;
+		object-fit: cover;
+	}
+	.rightDiv {
+		background-color: rgba(137, 43, 226, 0);
+		height: 100px;
+		display: flex;
+		flex-direction: column;
+	}
+	.dateDiv {
+		background-color: rgba(0, 17, 255, 0);
+		font-size: 8px;
+		color: rgba(255, 255, 255, 0.5);
+	}
+	.cardTitleDiv {
+		background-color: rgba(255, 17, 0, 0);
+		font-size: 12px;
+		margin: 0;
+		padding: 0;
+		color: #fff;
+	}
+
+	.descript {
+		color: rgb(17, 17, 17);
+		margin-top: 6px;
+		color: rgba(255, 255, 255, 0.5);
+		font-size: 8px;
+		max-height: 64px;
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 5;
+	}
+}
+@media (max-width: 767px) {
+	.mainDiv {
+		margin: 10px 20px 20px 20px;
+	}
+	.titleDiv {
+		background-color: rgba(139, 0, 139, 0);
+		font-size: 20px;
+		color: #fff;
+		height: 50px;
+	}
+	.scrollDiv {
+		max-height: 350px;
+		overflow-y: scroll;
+	}
+
+	.cardDiv {
+		background-color: #232327;
+		width: 100%;
+		height: 150px;
+		border-radius: 15px;
+		margin-bottom: 10px;
+		padding: 15px 15px 15px 15px;
+		display: flex;
+	}
+	.leftDiv {
+		background-color: rgba(0, 0, 255, 0);
+		margin-right: 10px;
+	}
+	.img {
+		border-radius: 15px;
+		height: 120px;
+		width: 120px;
+		object-fit: cover;
+	}
+	.rightDiv {
+		background-color: rgba(137, 43, 226, 0);
+		height: 120px;
+		display: flex;
+		flex-direction: column;
+	}
+	.dateDiv {
+		background-color: rgba(0, 17, 255, 0);
+		font-size: 8px;
+		color: rgba(255, 255, 255, 0.5);
+	}
+	.cardTitleDiv {
+		background-color: rgba(255, 17, 0, 0);
+		font-size: 12px;
+		margin: 0;
+		padding: 0;
+		color: #fff;
+	}
+
+	.descript {
+		color: rgba(255, 255, 255, 0.5);
+		margin-top: 6px;
+		background-color: rgba(0, 255, 255, 0);
+		font-size: 8px;
+		max-height: 84px;
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 7;
+		letter-spacing: 0.5px;
+	}
+}
+@media (max-width: 576px) {
+	.mainDiv {
+		margin: 20px;
+	}
+	.titleDiv {
+		font-size: 15px;
+		color: #fff;
+		height: 40px;
+	}
+	.cardDiv {
+		background-color: #232327;
+		width: 100%;
+		height: 120px;
+		border-radius: 15px;
+		margin-bottom: 10px;
+		padding: 10px 10px 10px 10px;
+		display: flex;
+	}
+	.leftDiv {
+		background-color: rgba(0, 0, 255, 0);
+		margin-right: 10px;
+	}
+	.img {
+		border-radius: 15px;
+		height: 100px;
+		width: 100px;
+		object-fit: cover;
+	}
+	.rightDiv {
+		background-color: rgba(137, 43, 226, 0);
+		height: 100px;
+		display: flex;
+		flex-direction: column;
+	}
+	.dateDiv {
+		background-color: rgba(0, 17, 255, 0);
+		font-size: 8px;
+		color: rgba(255, 255, 255, 0.5);
+	}
+	.cardTitleDiv {
+		background-color: rgba(255, 17, 0, 0);
+		font-size: 12px;
+		margin: 0;
+		padding: 0;
+		color: #fff;
+	}
+
+	.descript {
+		color: rgb(17, 17, 17);
+		margin-top: 6px;
+		color: rgba(255, 255, 255, 0.5);
+		font-size: 8px;
+		max-height: 64px;
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 5;
+	}
+}

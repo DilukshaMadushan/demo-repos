@@ -1,0 +1,25 @@
+module.exports = {
+  reactStrictMode: true,
+  env: {
+    BASE_URL: process.env.BASE_URL,
+    STRAPI_BASE_URL: process.env.STRAPI_BASE_URL,
+    FORUM_URL: process.env.FORUM_URL,
+    IMAGE_BASE_URL: process.env.IMAGE_BASE_URL,
+    WS_URL: process.env.WS_URL,
+    STRAPI_EXCHANGES_AND_DEALS_ID: process.env.STRAPI_EXCHANGES_AND_DEALS_ID,
+    STRAPI_CRYPTO_BOTS_ID: process.env.STRAPI_CRYPTO_BOTS_ID,
+    STRAPI_CRYPTO_TAX_ID: process.env.STRAPI_CRYPTO_TAX_ID,
+    STRAPI_CHARTING_TOOLS_ID: process.env.STRAPI_CHARTING_TOOLS_ID,
+    SENDINBLUE_URL: process.env.SENDINBLUE_URL,
+    SENDINBLUE_APITOKEN: process.env.SENDINBLUE_APITOKEN,
+    URL: process.env.URL,
+    ENVIRONMENT: process.env.ENVIRONMENT,
+    REPORT_ISSUE_EMAIL: process.env.REPORT_ISSUE_EMAIL,
+    RECAPTCHA_SITE_KEY: process.env.RECAPTCHA_SITE_KEY,
+    GA_TRACKING_ID: process.env.GA_TRACKING_ID,
+  },
+  i18n: {
+    locales: ["en-US", "en_GB"],
+    defaultLocale: "en-US",
+  },
+};

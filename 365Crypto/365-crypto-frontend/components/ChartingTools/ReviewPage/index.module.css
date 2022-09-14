@@ -1,0 +1,75 @@
+.mainDiv {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+.leftDiv {
+	background-color: rgba(49, 72, 134, 0);
+	width: calc(100% - 350px);
+}
+.contentDiv {
+	background-color: rgba(241, 154, 119, 0);
+}
+.verticleLine {
+	background-color: #232323;
+	top: 30px;
+	position: sticky;
+	width: 3px;
+	height: calc(85vh - 30px);
+}
+.rightDiv {
+	top: 0;
+	right: 0;
+	position: sticky;
+	width: 350px;
+	height: 85vh;
+	background-color: rgba(94, 33, 75, 0);
+}
+
+@media (max-width: 1200px) {
+	.verticleLine {
+		background-color: #232323;
+		top: 30px;
+		position: sticky;
+		width: 3px;
+		height: calc(88vh - 30px);
+	}
+	.rightDiv {
+		top: 0;
+		right: 0;
+		position: sticky;
+		width: 350px;
+		height: 88vh;
+		background-color: rgba(94, 33, 75, 0);
+	}
+}
+
+@media (max-width: 1000px) {
+	.leftDiv {
+		width: calc(100% - 250px);
+	}
+	.rightDiv {
+		position: sticky;
+		width: 250px;
+	}
+}
+@media (max-width: 768px) {
+	.mainDiv {
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+	}
+	.leftDiv {
+		background-color: rgba(49, 72, 134, 0);
+		width: 100%;
+	}
+	.verticleLine {
+		display: none;
+	}
+	.rightDiv {
+		height: auto;
+		width: 100%;
+		background-color: rgba(94, 33, 75, 0);
+	}
+}

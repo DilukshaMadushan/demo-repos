@@ -1,0 +1,78 @@
+.mainDiv {
+  font-family: Montserrat;
+  color: rgb(255, 255, 255);
+  position: relative;
+  height: 40px;
+  width: 150px;
+  margin-right: 10px;
+}
+.dropDown {
+  user-select: none;
+}
+.dropdownBtn {
+  background-color: #232327;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 150px;
+  border-radius: 25px;
+  cursor: pointer;
+  padding: 5px 5px;
+  border: 1px solid white;
+}
+.imgDiv {
+  height: 20px;
+  width: 120px;
+  border-radius: 10px;
+}
+.dropdownBtn:hover {
+  filter: brightness(1.5);
+}
+.arrowSpan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  font-size: 15px;
+}
+.dropdownContent {
+  z-index: 1000 !important;
+  position: absolute;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: #2b2b30;
+  margin-top: 5px;
+  border-radius: 10px;
+  transition: all 0.5s;
+  min-width: 120px;
+  width: 150px;
+  margin: 0;
+  padding: 0;
+}
+.dropdownContent::-webkit-scrollbar {
+  width: 4px;
+  background: #2b2b30;
+  border-radius: 0 15px 15px 0;
+}
+.dropdownContent::-webkit-scrollbar-thumb {
+  width: 4px;
+  background: #15141b;
+  border-radius: 2px;
+}
+
+.dropdownItemDiv {
+  background-color: #2b2b30;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-radius: 10px;
+  width: 150px;
+}
+.dropdownItemDiv:hover {
+  filter: brightness(1.5);
+}

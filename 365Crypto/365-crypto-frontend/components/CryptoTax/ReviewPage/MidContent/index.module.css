@@ -1,0 +1,376 @@
+/* ----- Loading comp styling start ----- */
+
+.loadingIconDiv {
+  background-color: #2e303e00;
+  min-height: 40px;
+  min-width: 40px;
+  border-radius: 10px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.loadingContentDiv {
+  background-color: #29292950;
+  width: 100%;
+  border-radius: 15px;
+  padding: 20px 20px 20px 20px;
+}
+
+/* ----- Loading comp styling end ----- */
+
+.mainDiv {
+  margin: 0;
+  padding: 30px 20px 20px 20px;
+}
+
+.introDiv {
+  background-color: rgba(178, 204, 33, 0);
+  margin-bottom: 30px;
+}
+.titleDiv {
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.iconDiv {
+  background-color: #2e303e;
+  min-height: 40px;
+  min-width: 40px;
+  border-radius: 10px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.iconDiv:hover {
+  filter: brightness(1.3);
+  transition: 0.3s;
+}
+
+.title {
+  color: #fff;
+  font-size: 20px;
+}
+.introDescript {
+  background-color: rgba(222, 184, 135, 0);
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+}
+.contentDiv {
+  background-color: #232327;
+  width: 100%;
+  border-radius: 15px;
+  padding: 20px 20px 20px 20px;
+}
+.mainThumbnail {
+  width: 100%;
+  height: 300px;
+  border-radius: 15px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  object-fit: cover;
+}
+.date {
+  background-color: rgba(95, 158, 160, 0);
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.titleAndBtnDiv {
+  background-color: rgba(127, 255, 212, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.descriptiontitle {
+  background-color: rgba(210, 105, 30, 0);
+  font-size: 25px;
+  color: #fff;
+}
+.dealBtn {
+  text-align: center;
+  font-family: Montserrat;
+  color: rgb(255, 255, 255);
+  background: #33b18a;
+  height: 30px;
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 6px;
+  text-decoration: none;
+  border: none;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+  padding: 0 10px 0 10px;
+}
+
+.dealBtn:hover {
+  background-image: linear-gradient(135deg, #3ecb78, #35d09f);
+}
+.right {
+  width: 250px;
+  height: 250px;
+  float: right;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  object-fit: cover;
+}
+.left {
+  width: 250px;
+  height: 250px;
+  float: left;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  object-fit: cover;
+}
+.centerSecondaryImagesDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  object-fit: cover;
+}
+.captionImage {
+  width: 100%;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-top: 12px;
+  object-fit: cover;
+}
+.captionText {
+  font-size: 12px;
+  font-style: italic;
+  margin-bottom: 12px;
+  color: #11bbec;
+}
+
+.description {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.boldtext {
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: #fff;
+  font-weight: bold;
+}
+.footerdDiv {
+  background-color: rgba(210, 105, 30, 0);
+  display: flex;
+}
+.footerLeftDiv {
+  background-color: rgba(100, 148, 237, 0);
+  width: 60%;
+}
+.footerTitleDiv {
+  color: #fff;
+  font-size: 18px;
+}
+.featuresListDiv {
+  background-color: rgba(220, 20, 60, 0);
+  margin-top: 10px;
+}
+.featuresListItem {
+  background-color: #9e7a7a00;
+  display: flex;
+  margin-bottom: 10px;
+}
+.featuresListItemIcon {
+  background-color: rgba(0, 255, 255, 0);
+  font-size: 19px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: #33b18a;
+  margin-right: 10px;
+}
+.featuresListItemDescript {
+  background-color: rgba(0, 0, 139, 0);
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footerRightDiv {
+  background-color: rgba(221, 100, 237, 0);
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+}
+.ctaImage {
+  background-color: #232327;
+  width: 100%;
+  height: 150px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  object-fit: cover;
+}
+@media (max-width: 1000px) {
+  .footerdDiv {
+    background-color: rgba(0, 139, 139, 0);
+    display: flex;
+    flex-direction: column;
+  }
+  .footerLeftDiv {
+    background-color: rgba(0, 100, 0, 0);
+    width: 100%;
+  }
+  .footerRightDiv {
+    background-color: rgba(55, 174, 204, 0);
+    width: 100%;
+    padding: 0;
+    padding-top: 15px;
+  }
+}
+@media (max-width: 576px) {
+  .mainDiv {
+    margin: 0;
+    padding: 30px 20px 20px 20px;
+  }
+
+  .introDiv {
+    background-color: rgba(178, 204, 33, 0);
+    margin-bottom: 30px;
+  }
+  .titleDiv {
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .iconDiv {
+    background-color: #2e303e;
+    min-height: 40px;
+    min-width: 40px;
+    border-radius: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .title {
+    color: #fff;
+    font-size: 15px;
+  }
+  .introDescript {
+    background-color: rgba(222, 184, 135, 0);
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+  }
+  .contentDiv {
+    background-color: #232327;
+    width: 100%;
+    border-radius: 15px;
+    padding: 20px 20px 20px 20px;
+  }
+  .mainThumbnail {
+    width: 100%;
+    height: 300px;
+    float: top;
+    border-radius: 15px;
+    margin: 0;
+    object-fit: cover;
+    margin-bottom: 5px;
+  }
+  .date {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .titleAndBtnDiv {
+    background-color: rgba(127, 255, 212, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .dealBtn {
+    margin-top: 0px;
+  }
+  .descriptiontitle {
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .right {
+    width: 100%;
+    height: 250px;
+    float: none;
+    border-radius: 5px;
+    margin: 15px 0;
+    object-fit: cover;
+  }
+  .left {
+    width: 100%;
+    height: 250px;
+    float: none;
+    border-radius: 5px;
+    margin: 15px 0;
+    object-fit: cover;
+  }
+
+  .description {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 15px;
+  }
+  .captionText {
+    font-size: 10px;
+  }
+  .footerTitleDiv {
+    color: #fff;
+    font-size: 15px;
+  }
+  .featuresListItemIcon {
+    background-color: rgba(0, 255, 255, 0);
+    font-size: 17px;
+  }
+  .featuresListItemDescript {
+    background-color: rgba(0, 0, 139, 0);
+    font-size: 12px;
+  }
+}
+@media (max-width: 400px) {
+  .mainThumbnail {
+    height: 70vw;
+  }
+  .right {
+    height: 70vw;
+  }
+  .left {
+    height: 70vw;
+  }
+  .titleAndBtnDiv {
+    background-color: rgba(127, 255, 212, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .dealBtn {
+    margin-top: 5px;
+    font-size: 10px;
+  }
+}

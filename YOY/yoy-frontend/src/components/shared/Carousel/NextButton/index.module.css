@@ -1,0 +1,61 @@
+.transparent-area {
+  margin-bottom: 35px;
+  right: -10px;
+  position: absolute;
+}
+.customNext-btnDiv {
+  position: absolute;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #67fd65;
+  font-weight: bold;
+  border-radius: 20px;
+  height: 35px;
+  width: 35px;
+  margin: 0;
+  padding: 0;
+}
+.customNext-btn {
+  background: transparent;
+  border: none;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #07002e;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .transparent-area {
+    margin-bottom: 35px;
+  }
+  .customNext-btnDiv {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #67fd65;
+    opacity: 25%;
+    border-radius: 20px;
+    height: 35px;
+    width: 35px;
+    margin: 0;
+    padding: 0;
+  }
+  .customNext-btn {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #07002e;
+    margin: 0;
+    padding: 0;
+  }
+}

@@ -1,0 +1,29 @@
+.mainDiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grapicDiv {
+  /* background-color: rgb(40, 20, 220); */
+  width: 70%;
+  height: 100%;
+  /* display: flex; */
+  padding-right: 15px;
+}
+.apexTextDiv {
+  padding-left: 10px;
+}
+.gCompDiv {
+  background-color: #181f36;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+.gCompDivLight {
+  background-color: #f6f8ff;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}

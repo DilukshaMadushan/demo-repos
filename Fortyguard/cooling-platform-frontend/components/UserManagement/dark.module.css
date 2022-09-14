@@ -1,0 +1,22 @@
+.mainDiv {
+	padding: 0;
+	margin: 0;
+}
+.pageTitle {
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	color: #eaeaea;
+}
+.table {
+	background-color: #181f36;
+	color: #eaeaea;
+	width: 100%;
+	border-radius: 10px;
+	padding-bottom: 10px;
+}
+.hDevider {
+	height: 1px;
+	width: 100%;
+	background-color: #aeaeae50;
+}

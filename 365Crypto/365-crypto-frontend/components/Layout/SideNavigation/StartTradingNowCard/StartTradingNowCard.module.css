@@ -1,0 +1,66 @@
+.mainDiv {
+  height: 70%;
+  width: 80%;
+  border-radius: 13px;
+  font-family: Montserrat;
+  background-color: #232327;
+  color: white;
+  text-align: center;
+  margin-top: 10%;
+}
+
+/* .mainDiv:hover {
+  margin-bottom: 20px;
+} */
+
+.upperDiv {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  height: 12%;
+  bottom: 14%;
+  width: 100%;
+  position: absolute;
+  object-fit: contain;
+}
+
+.middleDiv {
+  height: 45%;
+  padding: 5%;
+  display: grid;
+}
+
+.largeLabel {
+  font-size: 15px;
+}
+
+.smallLabel {
+  font-size: 0.7vw;
+  opacity: 70%;
+}
+
+.lowerDiv {
+  height: 30%;
+}
+
+.btn {
+  text-align: center;
+  font-family: Montserrat;
+  color: rgb(255, 255, 255);
+  background: #33b18a;
+  height: 80%;
+  width: 45%;
+  font-weight: 400;
+  font-size: 0.8vw;
+  border-radius: 6px;
+  border: none;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-image: linear-gradient(135deg, #3ecb78, #35d09f);
+}

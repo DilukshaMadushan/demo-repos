@@ -1,0 +1,89 @@
+.mainDiv {
+	padding: 0;
+	margin: 0;
+}
+.sideNav {
+	height: calc(100vh - 60px);
+}
+.profileBox {
+	background-color: #ecf0fb;
+	height: 80px;
+	padding: 0 20px;
+	display: flex;
+	align-items: center;
+}
+.dp {
+	height: 50px;
+	width: 50px;
+	border-radius: 30px;
+	box-sizing: border-box;
+	border: 2px solid #0d1220;
+	object-fit: cover;
+	margin-right: 10px;
+}
+.infoDiv {
+	background-color: rgba(128, 255, 0, 0);
+}
+.name {
+	font-size: 18px;
+	font-weight: 500;
+	color: #0d1220;
+}
+.position {
+	font-size: 15px;
+	font-weight: 400;
+	color: #494d58;
+}
+.tabDiv {
+	background-color: rgba(128, 255, 0, 0);
+	width: 300px;
+	max-height: calc(100vh - 140px);
+	height: calc(100vh - 140px);
+	overflow: scroll;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	transition: 350ms;
+}
+.tab {
+	background-color: rgba(100, 148, 237, 0);
+	height: 40px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	padding: 0 20px;
+	color: #0d1220;
+	font-size: 18px;
+	font-weight: 500;
+	cursor: pointer;
+}
+.tabSelected {
+	background-color: #e6e9f3;
+	height: 40px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	padding: 0 20px;
+	color: #0091d0;
+	font-size: 18px;
+	font-weight: 500;
+	cursor: pointer;
+}
+.tabName {
+	margin-left: 10px;
+}
+.tab:hover {
+	background-color: #0d122005;
+}
+.themeDiv {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+@media (max-width: 576px) {
+	.tabDiv {
+		width: 250px;
+		transition: 850ms;
+	}
+}

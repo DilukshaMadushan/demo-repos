@@ -1,0 +1,9 @@
+  /* Styling for RateBar component and RateBarHook component */
+  input[type='radio'] {
+    display: none;
+  }
+  
+.Star {
+  cursor: pointer;
+  transition: color 100ms 
+}

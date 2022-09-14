@@ -1,0 +1,29 @@
+.container {
+  width: 100%;
+  height: auto;
+  background: transparent no-repeat padding-box;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 100px;
+}
+
+.card {
+  width: 279px;
+  height: 279px;
+  background: transparent no-repeat padding-box;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 279px;
+  height: 279px;
+  cursor: pointer;
+  background-image: url("http://www.skrenta.com/images/stackoverflow.jpg");
+}
+
+.cardBTT {
+  height: 280px;
+  text-align: center;
+  color: #fff;
+}

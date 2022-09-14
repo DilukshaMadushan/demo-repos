@@ -1,0 +1,190 @@
+.mainDiv {
+  font-family: Montserrat;
+  color: rgb(255, 255, 255);
+  position: relative;
+  width: 100%;
+}
+.dropdown {
+  background-color: rgba(127, 255, 212, 0);
+}
+.dropdownBtn {
+  background-color: #232327;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  width: 120px;
+  border-radius: 25px;
+  cursor: pointer;
+  border: 1px solid white;
+  font-size: 12px;
+  padding: 0 10px;
+}
+.dropdownBtn:hover {
+  filter: brightness(1.5);
+}
+
+.titleSpan {
+  background-color: rgba(255, 99, 71, 0);
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.arrowSpan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 128, 128, 0);
+  font-size: 12px;
+}
+
+.dropdownContent {
+  max-height: 150px;
+  overflow-y: scroll;
+  z-index: 1000 !important;
+  position: absolute;
+  background-color: #2b2b30;
+  margin-top: 5px;
+  padding-left: 10px;
+  border-radius: 5px;
+  width: 120px;
+  transition: all 0.5s;
+  right: 0;
+}
+.dropdownContent::-webkit-scrollbar {
+  width: 4px;
+  background: #151418;
+  border-radius: 0 15px 15px 0;
+}
+.dropdownContent::-webkit-scrollbar-thumb {
+  width: 4px;
+  background: rgba(128, 128, 128, 0.5);
+  border-radius: 2px;
+}
+.searchCoinTabDiv {
+  background-color: rgba(0, 255, 255, 0);
+  margin: 5px 0;
+  margin-right: 10px;
+}
+.searchCoinTab {
+  background-color: rgba(165, 42, 42, 0);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  height: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+.searchCoinInput {
+  height: 30px;
+  width: 65%;
+  background: none;
+  border: none;
+  outline: 0;
+  border-width: 0;
+  font-size: 12px;
+  padding-left: 20px;
+  color: #fff;
+}
+
+.searchIconDiv {
+  background-color: rgba(255, 0, 0, 0);
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchIcon {
+  font-size: 15px;
+}
+
+.dropdownItemDiv {
+  background-color: #1616c000;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  padding: 0 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-radius: 5px;
+  font-size: 10px;
+}
+.dropdownItemDiv:hover {
+  filter: brightness(1.5);
+}
+.coinImgDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 128, 128, 0);
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+}
+.coinImg {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 767px) {
+  .mainDiv {
+    font-family: Montserrat;
+    color: rgb(255, 255, 255);
+    position: relative;
+    background-color: rgba(129, 129, 129, 0);
+    width: 100%;
+  }
+  .dropDown {
+    user-select: none;
+  }
+  .dropdownBtn {
+    background-color: #232327;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    width: 120px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: 1px solid white;
+    font-size: 10px;
+    padding: 0 10px;
+  }
+  .dropdownBtn:hover {
+    filter: brightness(1.5);
+  }
+
+  .titleSpan {
+    background-color: rgba(255, 99, 71, 0);
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .arrowSpan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 128, 128, 0);
+    font-size: 12px;
+  }
+}
+@media (max-width: 576px) {
+  .mainDiv {
+    font-family: Montserrat;
+    color: rgb(255, 255, 255);
+    position: relative;
+    background-color: rgba(129, 129, 129, 0);
+    width: 100%;
+  }
+
+  .dropdownBtn {
+    width: 70px;
+  }
+}

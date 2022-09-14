@@ -1,0 +1,239 @@
+.mainDiv {
+  font-family: Montserrat;
+  color: white;
+  font-weight: 400;
+  background-color: rgba(222, 184, 135, 0);
+  height: 14vw;
+  padding: 0;
+  margin: 0;
+}
+/*--------------UpperDiv--------------*/
+.upperDiv {
+  background-color: rgba(228, 139, 23, 0);
+  height: 50px;
+  padding: 0;
+  margin: 0;
+}
+.trendingTools {
+  display: flex;
+  align-items: center;
+  background-color: rgba(220, 20, 60, 0);
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+.seeAll {
+  background-color: rgba(0, 0, 255, 0);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+/*--------------LowerDiv--------------*/
+.lowerDiv {
+  background-color: rgba(79, 177, 13, 0);
+  height: 10vw;
+  padding: 0;
+  margin: 0;
+}
+/*--------------ForumDiv--------------*/
+
+.forumDiv {
+  background-color: rgba(137, 43, 226, 0);
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.cardDiv {
+  background-color: #232327;
+  height: 9vw;
+  width: 95%;
+  border-radius: 1vw;
+  cursor: pointer;
+}
+
+.cardDiv:hover {
+  margin-top: -0.2vw;
+  color: white;
+}
+
+.imageDiv {
+  background-color: rgba(233, 231, 85, 0);
+  padding: 0.5vw;
+  margin: 0;
+}
+.image {
+  background-color: rgba(105, 105, 105, 0);
+  height: 5vw;
+  margin-top: 1.5vw;
+  padding: 0.8vw;
+}
+.img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.infoDiv {
+  background-color: rgba(134, 105, 70, 0);
+  margin: 0;
+  padding: 0;
+}
+.toolNameDiv {
+  background-color: rgba(71, 61, 139, 0);
+  height: 60%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: flex-end;
+}
+.toolName {
+  font-size: 1.3vw;
+}
+.arrowButtonDiv {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-color: rgba(255, 20, 145, 0);
+  height: 40%;
+  margin: 0;
+  padding: 0;
+}
+
+.arrowButton {
+  background-color: #313131;
+  margin-right: 1.5vw;
+  margin-bottom: 1.5vw;
+  height: 2vw;
+  width: 2vw;
+  border-radius: 0.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8vw;
+}
+
+.arrowButton:hover {
+  background-color: #1f1f1f;
+}
+
+@media (max-width: 768px) {
+  .mainDiv {
+    background-color: rgba(222, 184, 135, 0);
+    height: 110vw;
+    padding: 0;
+    margin: 0;
+  }
+  /*--------------UpperDiv--------------*/
+  .upperDiv {
+    background-color: rgba(228, 139, 23, 0);
+    height: 50px;
+    padding: 0;
+    margin: 0;
+  }
+  .trendingTools {
+    display: flex;
+    align-items: center;
+    background-color: rgba(220, 20, 60, 0);
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+  }
+  .seeAll {
+    background-color: rgba(0, 0, 255, 0);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+  }
+  /*--------------LowerDiv--------------*/
+  .lowerDiv {
+    background-color: rgba(79, 177, 13, 0);
+    height: 101vw;
+    padding: 0;
+    margin: 0;
+    margin-top: 5vw;
+  }
+  /*--------------ForumDiv--------------*/
+  .forumDiv {
+    background-color: rgba(137, 43, 226, 0);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cardDiv {
+    background-color: #232327;
+    height: 20vw;
+    width: 95%;
+    margin-bottom: 5vw;
+    border-radius: 5vw;
+  }
+  .imageDiv {
+    background-color: rgba(233, 231, 85, 0);
+    padding: 0.5vw;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .image {
+    display: block;
+    align-items: flex-start;
+    background-color: rgba(105, 105, 105, 0);
+    height: 14vw;
+    width: 85%;
+    margin-top: 2vw;
+    padding: 1.8vw;
+    padding-right: 10vw;
+  }
+  .toolNameDiv {
+    background-color: rgba(71, 61, 139, 0);
+    height: 60%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-end;
+  }
+  .toolName {
+    font-size: 3vw;
+  }
+  .arrowButtonDiv {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(255, 20, 145, 0);
+    height: 40%;
+    margin: 0;
+    padding: 0;
+  }
+  .arrowButton {
+    background-color: #313131;
+    /* position: absolute; */
+    margin-bottom: 7vw;
+    margin-right: 5vw;
+    height: 6vw;
+    width: 6vw;
+    border-radius: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4vw;
+  }
+  .cardDiv:hover {
+    margin-top: 0vw;
+    margin-left: 0.5vw;
+    color: white;
+  }
+}
+@media (max-width: 576px) {
+  .mainDiv {
+    margin-bottom: 20px;
+  }
+}

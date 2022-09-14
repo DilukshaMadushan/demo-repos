@@ -1,0 +1,94 @@
+.mainDiv {
+	padding: 0;
+	margin: 0;
+	background-color: rgba(137, 43, 226, 0);
+}
+.topNav {
+	background-color: #f6f8ff;
+	height: 60px;
+	width: 100%;
+	padding: 0 20px 0 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logoDiv {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	background-color: rgba(137, 43, 226, 0);
+}
+.logo {
+	height: 40px;
+}
+.profileDiv {
+	background-color: rgba(255, 127, 80, 0);
+	position: relative;
+}
+.profileIconDiv {
+	background-color: rgba(45, 76, 161, 0);
+	font-size: 40px;
+	color: #0d1220;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.burgerIconDiv {
+	background-color: rgba(137, 43, 226, 0);
+	font-size: 40px;
+	color: #0d1220;
+	display: none;
+}
+.sideNavMobile {
+	display: none;
+}
+@media (max-width: 1200px) {
+	.topNav {
+		padding: 0 20px 0 20px;
+	}
+	.sideNavMobile {
+		display: flex;
+		height: calc(100vh - 60px);
+		width: 300px;
+		background-color: #f6f8ff;
+		position: fixed;
+		left: -100%;
+		transition: 850ms;
+	}
+	.sideNavMobile.active {
+		left: 0;
+		transition: 350ms;
+	}
+	.burgerIconDiv {
+		display: flex;
+	}
+}
+
+@media (max-width: 576px) {
+	.topNav {
+		height: 60px;
+	}
+	.logo {
+		height: 30px;
+	}
+	.profileIconDiv {
+		font-size: 30px;
+	}
+	.burgerIconDiv {
+		font-size: 30px;
+	}
+	.sideNavMobile {
+		width: 250px;
+	}
+}
+@media (max-width: 320px) {
+	.logo {
+		height: 25px;
+	}
+	.profileIconDiv {
+		font-size: 25px;
+	}
+	.burgerIconDiv {
+		font-size: 25px;
+	}
+}

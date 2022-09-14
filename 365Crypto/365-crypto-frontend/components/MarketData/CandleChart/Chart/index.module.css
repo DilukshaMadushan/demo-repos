@@ -1,0 +1,8 @@
+.tradingviewWidgetDiv {
+	height: 500px;
+}
+@media (max-width: 576px) {
+	.tradingviewWidgetDiv {
+		height: 320px;
+	}
+}

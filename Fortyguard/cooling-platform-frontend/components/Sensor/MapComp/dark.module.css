@@ -1,0 +1,69 @@
+.main-div {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+.map-image-div {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  margin-right: 15px;
+  background-color: #f6f8ff;
+  padding: 10px;
+  position: relative;
+}
+.map-container {
+  /* position: absolute; */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* width: 100%; */
+  height: 100%;
+  border-radius: 8px;
+}
+
+.sidebarStyle {
+  display: inline-block;
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  margin: 12px;
+  background-color: #404040;
+  color: #ffffff;
+  z-index: 1 !important;
+  padding: 6px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+.map-items {
+  position: absolute;
+  background-color: aqua;
+  width: 47%;
+  height: 100%;
+  color: black;
+  margin-left: auto;
+}
+.legend-div {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  height: 651px;
+  margin-left: 10px;
+  position: absolute;
+}
+.Search-div {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.search-top-div {
+  display: flex;
+  justify-content: flex-end;
+}
+.zoom-div {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+  padding-right: 0%;
+}

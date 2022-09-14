@@ -1,0 +1,52 @@
+.mainDiv {
+	padding: 0;
+	margin: 0;
+}
+.lowerDiv {
+	background-color: rgba(222, 184, 135, 0);
+	display: flex;
+}
+
+.topNav {
+	background-color: rgba(165, 42, 42, 0);
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 10000;
+}
+
+.sideNav {
+	background-color: rgba(100, 148, 237, 0);
+	position: fixed;
+}
+
+.dummyDiv {
+	background-color: rgba(100, 148, 237, 0);
+}
+.dummy {
+	width: 300px;
+	background-color: #e6e9f3;
+}
+.main {
+	background-color: #e6e9f3;
+	min-height: calc(100vh - 60px);
+	padding: 20px;
+	color: #0d1220;
+	width: 100%;
+}
+@media (max-width: 1200px) {
+	.sideNav {
+		display: none;
+	}
+	.dummyDiv {
+		display: none;
+	}
+	.dummy {
+		display: none;
+	}
+}
+@media (max-width: 576px) {
+	.main {
+		min-height: calc(100vh - 70px);
+	}
+}

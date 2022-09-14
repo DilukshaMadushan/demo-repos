@@ -1,0 +1,90 @@
+.mainDiv {
+	background-color: #1717b300;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	font-size: small;
+	margin: 0;
+	padding: 0;
+}
+
+.buttonSelected {
+	background-image: linear-gradient(#3fd1ec, #0e98ff);
+	height: 30px;
+	width: 70px;
+	border-radius: 10px;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	margin-right: 5px;
+	cursor: pointer;
+	font-size: 12px;
+}
+.buttonNotSelected:hover {
+	background-color: rgba(255, 255, 255, 0.048);
+	transition: 0.3s;
+}
+
+.buttonNotSelected {
+	background-color: #232327;
+	height: 30px;
+	width: 70px;
+	border-radius: 10px;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	margin-right: 5px;
+	cursor: pointer;
+	font-size: 12px;
+}
+
+@media (max-width: 768px) {
+	.mainDiv {
+		background-color: #1717b300;
+		height: 30px;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		margin: 0;
+		padding: 0;
+	}
+
+	.buttonSelected {
+		background-image: linear-gradient(#3fd1ec, #0e98ff);
+		height: 25px;
+		width: 50px;
+		border-radius: 10px;
+		padding: 5px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #fff;
+		margin-right: 5px;
+		cursor: pointer;
+		font-size: 10px;
+	}
+	.buttonNotSelected:hover {
+		background-color: rgba(255, 255, 255, 0.048);
+		transition: 0.3s;
+	}
+
+	.buttonNotSelected {
+		background-color: #232327;
+		height: 25px;
+		width: 50px;
+		border-radius: 10px;
+		padding: 5px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #fff;
+		margin-right: 5px;
+		cursor: pointer;
+		font-size: 10px;
+	}
+}

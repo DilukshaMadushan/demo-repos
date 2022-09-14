@@ -1,0 +1,289 @@
+.mainDiv {
+  background-color: #151418;
+  color: white;
+  font-size: 25px;
+  height: 130px;
+}
+.TitleDiv {
+  background-color: rgba(172, 87, 87, 0);
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.title {
+  background-color: #3333b300;
+  font-size: 20px;
+  font-weight: 600;
+}
+.searchInTitleBarDiv {
+  display: none;
+
+  background-color: #b3333300;
+  padding-right: 29px;
+}
+
+/* .menuBarDiv {
+	background-color: chartreuse;
+	margin: 0;
+	padding: 0;
+} */
+
+.menuBar {
+  background-color: #232327;
+  height: 70px;
+  border-radius: 10px;
+  margin: 0 12px;
+  margin-top: 10px;
+}
+.leftDiv {
+  background-color: #3333b300;
+  height: 70px;
+  padding: 0;
+  padding-left: 17px !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leftStDiv {
+  background-color: rgba(138, 30, 210, 0);
+  height: 70px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3px;
+}
+.leftNdDiv {
+  background-color: rgba(210, 30, 171, 0);
+
+  height: 70px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.leftRdDiv {
+  background-color: rgba(210, 30, 75, 0);
+
+  height: 70px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightDiv {
+  background-color: #33a0b300;
+  height: 70px;
+  padding: 0;
+  padding-right: 17px !important;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.rightStDiv {
+  display: none;
+}
+.rightNdDiv {
+  background-color: #b3803300;
+}
+.verticalLine {
+  height: 50px;
+  width: 1px;
+  background-color: gray;
+  border-radius: 0.5px;
+  margin: 0 10px;
+}
+.rightRdDiv {
+  background-color: rgba(210, 30, 171, 0);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+@media (max-width: 1000px) {
+  .TitleDiv {
+    background-color: rgba(172, 87, 87, 0);
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+  .title {
+    width: 50%;
+    background-color: #3333b300;
+  }
+  .searchInTitleBarDiv {
+    display: flex;
+    width: 50%;
+    background-color: #b3333300;
+    padding-right: 15px;
+  }
+  .leftStDiv {
+    background-color: rgba(138, 30, 210, 0);
+    height: 70px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
+  .leftNdDiv {
+    background-color: rgba(210, 30, 171, 0);
+    margin-right: 10px;
+    height: 70px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  .leftRdDiv {
+    background-color: rgba(210, 30, 75, 0);
+    margin-right: 10px;
+    height: 70px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  .verticalLine {
+    display: none;
+  }
+  .rightRdDiv {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .mainDiv {
+    background-color: #151418;
+    color: white;
+    font-size: 25px;
+    height: 160px;
+  }
+  .title {
+    font-size: 16px;
+  }
+  .menuBar {
+    background-color: #232327;
+    height: 110px;
+    border-radius: 10px;
+    margin: 0 12px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .leftDiv {
+    background-color: #3333b300;
+    height: 40px;
+    padding: 0;
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+
+  .leftStDiv {
+    background-color: rgba(138, 30, 210, 0);
+    height: 40px;
+    display: grid;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+  }
+  .leftRdDiv {
+    display: none;
+  }
+
+  .leftNdDiv {
+    height: 40px;
+    margin-right: 17px;
+  }
+
+  .rightDiv {
+    background-color: #33a0b300;
+    height: 40px;
+    padding-right: 17px;
+    padding-left: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .rightStDiv {
+    background-color: rgba(138, 30, 210, 0);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 17px;
+  }
+  .rightNdDiv {
+    background-color: rgba(210, 30, 171, 0);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 500px) {
+  .mainDiv {
+    background-color: #151418;
+    color: white;
+    font-size: 25px;
+    height: 150px;
+  }
+  .menuBar {
+    background-color: #232327;
+    height: 100px;
+    border-radius: 10px;
+    margin: 0 12px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .searchInTitleBarDiv {
+    height: 30px;
+  }
+  .searchInTitleBarDiv {
+    padding-right: 12px;
+  }
+  .leftDiv {
+    background-color: #3333b300;
+    height: 40px;
+    padding: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .leftStDiv {
+    background-color: rgba(138, 30, 210, 0);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .leftRdDiv {
+    display: none;
+  }
+
+  .leftNdDiv {
+    height: 40px;
+  }
+
+  .rightDiv {
+    background-color: #33a0b300;
+    height: 40px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .rightStDiv {
+    background-color: rgba(138, 30, 210, 0);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .rightNdDiv {
+    background-color: rgba(210, 30, 171, 0);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}

@@ -1,0 +1,98 @@
+.image {
+  width: 64%;
+  margin-top: -5vw;
+  margin-bottom: -4.5vw;
+  margin-left: 5.6vw;
+  height: 15vw;
+}
+.rightcolumn {
+  color: white;
+  margin-top: 8vh;
+  margin-bottom: 4vh;
+  margin-right: 4vw;
+}
+
+.signupbutton {
+  background-color: white;
+  font-size: 16px;
+  margin-right: 1.5vw;
+  margin-top: 1.5vw;
+  border-radius: 7px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #5a40ff;
+  text-align: center;
+}
+.learnmorebutton {
+  color: white;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 1vw;
+  margin-top: 1.5vw;
+}
+
+.heading {
+  text-align: left;
+  font-weight: 700;
+}
+
+.paragraph {
+  text-align: left;
+  font-weight: 600;
+}
+.container {
+  background-image: linear-gradient(to right, #5a40ff, #2889d5);
+  border-radius: 5px;
+  clip-path: inset(-100vw -100vw 0 -100vw);
+}
+
+/* CSS for mobile displays */
+
+@media (max-width: 580px) {
+  .imagecol {
+    display: none;
+  }
+  .heading {
+    font-size: 5vw;
+    text-align: left;
+  }
+  .paragraph {
+    text-align: left;
+    font-size: 2.5vw;
+  }
+  .signupbutton {
+    border-radius: 16px;
+    font-size: 3vw;
+    font-weight: 600;
+    background-color: white;
+
+    margin: 1vh 4vw 1vh 0;
+  }
+  .learnmorebutton {
+    border-radius: 16px;
+    font-size: 3vw;
+    margin: 1vh 4vw 1vh 0;
+    font-weight: 600;
+  }
+  .leftcolumn {
+    display: none;
+  }
+  .rightcolumn {
+    color: white;
+    margin: 0;
+  }
+  .container {
+    padding: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .heading {
+    font-size: 6vw;
+    text-align: left;
+  }
+  .paragraph {
+    text-align: left;
+    font-size: 3.5vw;
+  }
+}

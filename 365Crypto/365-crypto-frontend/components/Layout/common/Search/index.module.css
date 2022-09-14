@@ -1,0 +1,17 @@
+.serach-div {
+  height: 40px;
+  width: 68%;
+  background-color: #2e303e;
+  border-radius: 6px;
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  align-items: center;
+}
+
+.input-search {
+  width: 100%;
+  outline: 0;
+  border-width: 0;
+  background-color: #2e303e;
+  color: grey;
+}

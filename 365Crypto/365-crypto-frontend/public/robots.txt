@@ -1,0 +1,9 @@
+# *
+User-agent: *
+
+# Host
+Host: https://365crypto.com
+
+# Sitemaps
+Sitemap: https://365crypto.com/page-sitemap.xml
+Sitemap: https://365crypto.com/review-sitemap.xml

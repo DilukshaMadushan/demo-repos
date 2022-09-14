@@ -1,0 +1,169 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.imageContainer {
+  width: 614px;
+  height: 390px;
+}
+.image {
+  width: 614px;
+  height: 388px;
+}
+
+.videoContainer {
+  position: relative;
+  top: -424px;
+  margin-left: 6px;
+}
+.video {
+  width: 567px;
+  height: 400px;
+}
+
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 53px;
+}
+.title {
+  font-size: 36px;
+  color: #67fd65;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 500;
+  margin: 0;
+}
+.descriptionContainer {
+  margin-top: 15px;
+}
+.description {
+  font-size: 22px;
+  color: #ffffff;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 500;
+  margin: 0;
+}
+
+.buttonContainer {
+  width: 170px;
+  height: 22px;
+  margin-top: 30px;
+}
+
+/* For Large devices ( less than 1500px) */
+
+@media (max-width: 1550px) {
+  .imageContainer {
+    width: 482px;
+    height: 306px;
+  }
+  .image {
+    width: 482px;
+    height: 304px;
+  }
+
+  .videoContainer {
+    position: relative;
+    top: -334px;
+    margin-left: 5px;
+  }
+  .video {
+    width: 445px;
+    height: 314px;
+  }
+
+  .rightColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 42px;
+  }
+  .title {
+    font-size: 28px;
+    color: #67fd65;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 500;
+    margin: 0;
+  }
+  .descriptionContainer {
+    margin-top: 12px;
+  }
+  .description {
+    font-size: 17px;
+    color: #ffffff;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .buttonContainer {
+    width: 133px;
+    height: 17px;
+    margin-top: 24px;
+  }
+}
+
+/* For small devices ( less than 768px) */
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imageContainer {
+    width: 302px;
+    height: 190px;
+  }
+  .image {
+    width: 302px;
+    height: 190px;
+  }
+
+  .videoContainer {
+    position: relative;
+    top: -212px;
+    margin-left: 4px;
+  }
+  .video {
+    width: 277px;
+    height: 200px;
+  }
+
+  .rightColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  .title {
+    font-size: 18px;
+    color: #67fd65;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+  }
+  .descriptionContainer {
+    margin-top: 9px;
+  }
+  .description {
+    font-size: 13px;
+    color: #ffffff;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+  }
+
+  .buttonContainer {
+    width: 100px;
+    height: 30px;
+    margin-top: 18px;
+  }
+}

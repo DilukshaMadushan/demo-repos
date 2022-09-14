@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  padding: 20px;
+  width: 130px;
+  height: 30px;
+  background-color: #0e095c74;
+  border-radius: 30px;
+  border: 1px solid #67fd65;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.container h6 {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Epilogue", sans-serif;
+  color: #67fd65;
+  margin: 0;
+}
+
+/* For Large devices ( less than 1500px) */
+
+@media (max-width: 1550px) {
+  .container {
+    display: flex;
+    padding: 16px;
+    width: 102px;
+    height: 24px;
+    background-color: #0e095c74;
+    border-radius: 24px;
+    border: 1px solid #67fd65;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .container h6 {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Epilogue", sans-serif;
+    color: #67fd65;
+    margin: 0;
+  }
+}
+
+/* For small devices ( less than 768px) */
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    padding: 12px;
+    width: 77px;
+    height: 18px;
+    background-color: #0e095c74;
+    border-radius: 18px;
+    border: 1px solid #67fd65;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .container h6 {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Epilogue", sans-serif;
+    color: #67fd65;
+    margin: 0;
+  }
+}

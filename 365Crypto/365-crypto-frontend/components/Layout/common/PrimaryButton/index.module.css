@@ -1,0 +1,18 @@
+.primaryButton {
+  text-align: center;
+  font-family: Montserrat;
+  color: rgb(255, 255, 255);
+  background: #33b18a;
+  height: 40px;
+  width: 80px;
+  font-weight: 400;
+  border-radius: 6px;
+  text-decoration: none;
+  border: none;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+}
+
+.primaryButton:hover {
+  background-image: linear-gradient(135deg, #3ecb78, #35d09f);
+}

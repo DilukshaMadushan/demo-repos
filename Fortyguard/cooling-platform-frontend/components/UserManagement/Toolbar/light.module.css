@@ -1,0 +1,66 @@
+.mainDiv {
+	padding: 0;
+	margin: 0;
+}
+.tableToolbar {
+	padding: 10px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.leftDiv {
+	background-color: rgba(255, 127, 80, 0);
+	display: flex;
+	align-items: center;
+	height: 50px;
+}
+.allUsersDiv {
+	padding: 0 20px;
+	color: #0d1220;
+	font-size: 18px;
+	font-weight: 500;
+}
+.activeInactiveDiv {
+	background-color: rgba(100, 148, 237, 0);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.active {
+	padding: 0 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #494d58;
+}
+.activeCircle {
+	background-color: #20a500;
+	height: 10px;
+	width: 10px;
+	margin-right: 10px;
+	border-radius: 50%;
+}
+.inactiveCircle {
+	background-color: #f03c6e;
+	height: 10px;
+	width: 10px;
+	margin-right: 10px;
+	border-radius: 50%;
+}
+.inactive {
+	padding: 0 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #494d58;
+}
+.vDevider {
+	background-color: #494d5850;
+	height: 40px;
+	width: 1px;
+}
+.rightDiv {
+	background-color: rgba(39, 226, 154, 0);
+	display: flex;
+	align-items: center;
+}

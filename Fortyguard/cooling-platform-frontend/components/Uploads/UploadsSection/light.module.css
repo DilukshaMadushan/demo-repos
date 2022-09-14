@@ -1,0 +1,72 @@
+.mainDiv {
+	padding: 0;
+	margin: 0;
+	margin-top: 80px;
+}
+.box {
+	background-color: #e6e9f3;
+	width: 100%;
+	padding: 20px 0 50px 0;
+	border-radius: 10px;
+	/* border: 3px solid #494d58; */
+	/* border-style: dotted; */
+	border-width: 3px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.icon {
+	font-size: 75px;
+	color: #494d58;
+}
+.textDrag {
+	font-size: 18px;
+	font-weight: 600;
+	color: #0d1220;
+}
+.textOr {
+	font-size: 15px;
+	color: #494d58;
+}
+.browseBtn {
+	margin-top: 10px;
+	padding: 0 20px;
+	background-color: #0091d0;
+	color: #eaeaea;
+	border-radius: 20px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 600;
+	cursor: pointer;
+}
+.lowerDiv {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	margin-top: 10px;
+}
+.uploadBtn {
+	margin-top: 10px;
+	padding: 0 50px;
+	border: 2px solid #0091d0;
+	color: #0d1220;
+	border-radius: 10px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 600;
+}
+@media (max-width: 350px) {
+	.textDrag {
+		font-size: 15px;
+	}
+	.browseBtn {
+		font-size: 14px;
+	}
+	.uploadBtn {
+		font-size: 14px;
+	}
+}

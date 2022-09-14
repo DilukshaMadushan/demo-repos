@@ -1,0 +1,634 @@
+.mainDiv {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.dekstopEventsDiv {
+  margin: 0 10px;
+}
+.tabEventsDiv {
+  margin: 0 10px;
+  display: none;
+}
+.cardDiv {
+  background: rgba(236, 79, 79, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+}
+.card {
+  background: #232327;
+  height: 280px;
+  width: 100%;
+  margin: 10px;
+  border-radius: 15px;
+  padding: 0 15px;
+}
+.loadingCard {
+  background: #29292950;
+  height: 280px;
+  width: 100%;
+  margin: 10px;
+  border-radius: 15px;
+  padding: 0 15px;
+}
+.logoSpaceDiv {
+  background: rgba(128, 255, 0, 0);
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loadingCompLogoSpaceDiv {
+  background: rgba(128, 255, 0, 0);
+  height: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loadingCompLogoDiv {
+  background: rgba(64, 224, 208, 0);
+  height: 60px;
+  width: 60px;
+  margin-bottom: 30px;
+}
+.coinLogoMainDiv {
+  margin: 0;
+  padding: 0;
+  height: 60px;
+  width: 60px;
+  margin-bottom: 50px;
+  background-color: rgba(165, 42, 42, 0);
+}
+.logoDiv {
+  background: rgba(64, 224, 208, 0);
+  height: 60px;
+  width: 60px;
+  margin-bottom: 50px;
+}
+.logo {
+  background: rgba(80, 64, 224, 0);
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 30px;
+}
+
+.coinNameDiv {
+  background: rgba(30, 255, 0, 0);
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.coinNameMainDiv {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(165, 42, 42, 0);
+  height: 20px;
+}
+.coinName {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  background-color: rgba(222, 184, 135, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+}
+.coinNamespan {
+  background-color: rgba(201, 38, 207, 0);
+}
+.dateNiconsDiv {
+  background: rgba(255, 153, 0, 0);
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.eventDateDiv {
+  background: rgba(21, 255, 0, 0);
+  height: 30px;
+  width: 35%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.evenDateSpan {
+  font-size: 10px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+}
+.statusIconsDiv {
+  background: rgba(255, 0, 21, 0);
+  height: 30px;
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.singleStatusIconDiv {
+  background-color: rgba(216, 191, 216, 0);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 25px;
+  width: 25px;
+}
+.singleStatusIcon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  margin-right: 3px;
+}
+
+.singleStatusIconHide {
+  display: none;
+}
+
+.eventTitleDiv {
+  background: rgba(32, 60, 112, 0);
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.eventTitleSpan {
+  font-size: 16px;
+  font-weight: 600;
+  max-height: 30px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.eventdiscriptionDiv {
+  background: rgba(171, 58, 224, 0);
+  max-height: 80px;
+  height: 80px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  padding-top: 5px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.eventdiscription {
+  font-size: 12px;
+  font-weight: 500;
+}
+.buttonsDiv {
+  background: rgba(224, 58, 108, 0);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons {
+  font-size: 10px;
+  width: 70%;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  height: 25px;
+  border-radius: 12.5px;
+  background: #232327;
+  color: white;
+}
+.buttons:hover {
+  filter: brightness(1.5);
+}
+.proofButtonsDiv {
+  background: rgba(224, 199, 58, 0);
+  height: 50px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sourceButtonsDiv {
+  background: rgba(58, 224, 99, 0);
+  height: 50px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerDiv {
+  background: rgba(122, 58, 224, 0);
+  height: 50px;
+  justify-content: center;
+}
+.lineDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.line {
+  margin-top: 5px;
+  background: rgba(255, 255, 255, 0.253);
+  height: 1px;
+  width: 90%;
+  border-radius: 1px;
+}
+.addedDateDiv {
+  background-color: rgba(255, 99, 71, 0);
+  height: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addedDate {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.5);
+}
+@media (max-width: 1200px) {
+  .mainDiv {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+  }
+  .dekstopEventsDiv {
+    margin: 0 10px;
+  }
+  .tabEventsDiv {
+    margin: 0 10px;
+    display: none;
+  }
+  .cardDiv {
+    background: rgba(236, 79, 79, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+  }
+  .card {
+    background: #232327;
+    height: 280px;
+    width: 100%;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 0 15px;
+  }
+  .logoSpaceDiv {
+    background: rgba(128, 255, 0, 0);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .coinLogoMainDiv {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 40px;
+    background-color: rgba(165, 42, 42, 0);
+  }
+  .logoDiv {
+    background: rgba(64, 224, 208, 0);
+    height: 50px;
+    width: 50px;
+    margin-bottom: 40px;
+  }
+  .logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 25px;
+  }
+  .coinNameDiv {
+    background: rgba(30, 255, 0, 0);
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .coinName {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+  }
+  .dateNiconsDiv {
+    background: rgba(255, 153, 0, 0);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .eventDateDiv {
+    background: rgba(21, 255, 0, 0);
+    height: 30px;
+    width: 40%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+  .evenDateSpan {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 500;
+    font-size: 10px;
+  }
+  .statusIconsDiv {
+    background: rgba(255, 0, 21, 0);
+    height: 30px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .singleStatusIconDiv {
+    background-color: rgba(216, 191, 216, 0);
+    height: 20px;
+    width: 20px;
+    margin-right: 3px;
+  }
+  .singleStatusIcon {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  .eventTitleDiv {
+    background: rgba(32, 60, 112, 0);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .eventTitleSpan {
+    font-size: 16px;
+  }
+  .eventdiscriptionDiv {
+    background: rgba(171, 58, 224, 0);
+    max-height: 80px;
+    height: 80px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    padding-top: 5px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .eventdiscription {
+    font-size: 12px;
+  }
+  .buttonsDiv {
+    background: rgba(224, 58, 108, 0);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .buttons {
+    font-size: 10px;
+    width: 70%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    height: 25px;
+    border-radius: 12.5px;
+    background: #232327;
+    color: white;
+  }
+  .buttons:hover {
+    filter: brightness(1.5);
+  }
+  .proofButtonsDiv {
+    background: rgba(224, 199, 58, 0);
+    height: 50px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sourceButtonsDiv {
+    background: rgba(58, 224, 99, 0);
+    height: 50px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footerDiv {
+    background: rgba(122, 58, 224, 0);
+    height: 50px;
+    justify-content: center;
+  }
+  .lineDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .line {
+    margin-top: 5px;
+    background: rgba(255, 255, 255, 0.253);
+    height: 1px;
+    width: 90%;
+    border-radius: 1px;
+  }
+  .addedDateDiv {
+    background-color: rgba(255, 99, 71, 0);
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .addedDate {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+@media (max-width: 768px) {
+  .mainDiv {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+  }
+  .dekstopEventsDiv {
+    margin: 0 10px;
+    display: none;
+  }
+  .tabEventsDiv {
+    margin: 0 10px;
+    display: flex;
+  }
+  .cardDiv {
+    background: rgba(236, 79, 79, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+  }
+  .card {
+    background: #232327;
+    height: 280px;
+    width: 100%;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 0 15px;
+  }
+  .logoSpaceDiv {
+    background: rgba(128, 255, 0, 0);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logoDiv {
+    background: rgba(64, 224, 208, 0);
+    height: 50px;
+    width: 50px;
+    margin-bottom: 40px;
+  }
+  .logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 25px;
+  }
+  .coinNameDiv {
+    background: rgba(30, 255, 0, 0);
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .coinName {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+  }
+  .dateNiconsDiv {
+    background: rgba(255, 153, 0, 0);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .eventDateDiv {
+    background: rgba(21, 255, 0, 0);
+    height: 30px;
+    width: 35%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+  .evenDateSpan {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 500;
+  }
+  .statusIconsDiv {
+    background: rgba(255, 0, 21, 0);
+    height: 30px;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .singleStatusIconDiv {
+    background-color: rgba(216, 191, 216, 0);
+    height: 25px;
+    width: 25px;
+    margin-right: 3px;
+  }
+  .singleStatusIcon {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  .eventTitleDiv {
+    background: rgba(32, 60, 112, 0);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .eventTitleSpan {
+    font-size: 14px;
+  }
+  .eventdiscriptionDiv {
+    background: rgba(171, 58, 224, 0);
+    max-height: 80px;
+    height: 80px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    padding-top: 5px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .eventdiscription {
+    font-size: 12px;
+  }
+  .buttonsDiv {
+    background: rgba(224, 58, 108, 0);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .buttons {
+    font-size: 10px;
+    width: 70%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    height: 25px;
+    border-radius: 12.5px;
+    background: #232327;
+    color: white;
+  }
+  .buttons:hover {
+    filter: brightness(1.5);
+  }
+  .proofButtonsDiv {
+    background: rgba(224, 199, 58, 0);
+    height: 50px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sourceButtonsDiv {
+    background: rgba(58, 224, 99, 0);
+    height: 50px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footerDiv {
+    background: rgba(122, 58, 224, 0);
+    height: 50px;
+    justify-content: center;
+  }
+  .lineDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .line {
+    margin-top: 5px;
+    background: rgba(255, 255, 255, 0.253);
+    height: 1px;
+    width: 90%;
+    border-radius: 1px;
+  }
+  .addedDateDiv {
+    background-color: rgba(255, 99, 71, 0);
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .addedDate {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+}

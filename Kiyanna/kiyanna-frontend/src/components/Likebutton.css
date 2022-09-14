@@ -1,0 +1,9 @@
+/* Styling for Likebutton component in the comment section */
+input[type="radio"] {
+  display: none;
+}
+
+.Like-button {
+  cursor: pointer;
+  transition: color 500ms;
+}

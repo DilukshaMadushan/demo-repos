@@ -1,0 +1,12 @@
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: Montserrat;
+	color: white;
+	background-color: #33b18a;
+	
+	font-weight: 400;
+	padding: 0.5vw 1vw 0.5vw 1vw;
+	border-radius: 0.5vw;
+}

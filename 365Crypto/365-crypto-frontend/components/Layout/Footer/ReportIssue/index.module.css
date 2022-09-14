@@ -1,0 +1,177 @@
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modalbody {
+  position: absolute;
+  top: 7vh;
+  width: 500px;
+  background-color: black;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #33b18a;
+  font-size: 20px;
+  font-weight: bold;
+}
+.signin {
+  text-align: center;
+  font-family: Montserrat;
+  color: rgb(255, 255, 255);
+  background: #33b18a;
+  height: 40px;
+  font-weight: 400;
+  text-decoration: none;
+  border: none;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 100% !important;
+  margin: 2px;
+  padding: 1px;
+  margin-left: 0px;
+  margin-top: 30px;
+}
+
+.signinDisable {
+  text-align: center;
+  font-family: Montserrat;
+  color: rgb(255, 255, 255);
+  background: #c9c9c9;
+  height: 40px;
+  font-weight: 400;
+  text-decoration: none;
+  border: none;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 100% !important;
+  margin: 2px;
+  padding: 1px;
+  margin-left: 0px;
+  margin-top: 30px;
+}
+.signin:hover {
+  background-image: linear-gradient(135deg, #3ecb78, #35d09f);
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 15px;
+  background-color: #2e303e;
+  padding-left: 25px;
+  border-radius: 6px;
+}
+.input-group-description {
+  width: 100%;
+  margin-top: 15px;
+  background-color: #2e303e;
+  padding: 0 25px;
+  border-radius: 6px;
+  height: 120px;
+}
+.form-group {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+.form-group-description {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+.forgotpasswordtext {
+  color: #33b18a;
+  margin: 2px;
+  padding: 2px;
+  font-size: 12px;
+  margin-top: 10px;
+  text-align: right;
+}
+
+.form-control {
+  outline: 0;
+  border-width: 0;
+  color: #fff;
+  font-size: 14px;
+  padding: 3px;
+  background-color: #2e303e;
+  width: 100%;
+  border-radius: 6px;
+}
+.form-control-description {
+  outline: 0;
+  border-width: 0;
+  color: #fff;
+  font-size: 14px;
+  padding: 3px;
+  background-color: #2e303e;
+  width: 100%;
+  word-break: break-word;
+  height: 100%;
+  resize: none;
+}
+
+.errors {
+  font-size: 12px;
+  color: rgb(184, 63, 63);
+  font-weight: 600;
+}
+.submit-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.primaryButton {
+  text-align: center;
+  font-family: Montserrat;
+  color: rgb(255, 255, 255);
+  background: #33b18a;
+  height: 40px;
+  width: 80px;
+  font-weight: 400;
+  border-radius: 6px;
+  text-decoration: none;
+  border: none;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+}
+.wait-primaryButton {
+  text-align: center;
+  font-family: Montserrat;
+  color: rgb(255, 255, 255);
+  background: #33b18a;
+  height: 40px;
+  width: 200px;
+  font-weight: 400;
+  border-radius: 6px;
+  text-decoration: none;
+  border: none;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+}
+
+.primaryButton:hover {
+  background-image: linear-gradient(135deg, #3ecb78, #35d09f);
+}
+@media (max-width: 767px) {
+  .modalbody {
+    width: auto;
+    padding: 15px;
+  }
+  .submit-div {
+    padding-bottom: 0;
+  }
+}

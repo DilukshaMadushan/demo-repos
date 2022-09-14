@@ -1,0 +1,267 @@
+.container {
+  width: 35%;
+}
+
+.title {
+  width: 75%;
+}
+.title h2 {
+  font-size: 39px;
+  color: #67fd65;
+  margin: 0;
+}
+
+.description {
+  margin-top: 27px;
+}
+.description h6 {
+  font-size: 23px;
+  font-weight: 500;
+  margin: 0px;
+  color: #ffffff;
+}
+
+.timeRow {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  align-items: center;
+}
+.edge h6 {
+  font-size: 24px;
+  margin: 0;
+  color: #ffffff;
+  font-weight: 500;
+}
+.mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ffffff;
+
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 2px;
+  height: 34px;
+}
+.mid h6 {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.buttonRow {
+  display: flex;
+  flex-direction: row;
+  margin-top: 24px;
+  align-items: center;
+}
+
+.TrailerButton {
+  margin-left: 20px;
+}
+
+.icons img {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.share {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: 2px solid #ffffff;
+  margin-left: 20px;
+}
+.share img {
+  width: 20px;
+  height: 20px;
+  /* margin-left: 20px; */
+  object-fit: contain;
+}
+
+@media (max-width: 1550px) {
+  .title h2 {
+    font-size: 30px;
+    color: #67fd65;
+    margin: 0;
+  }
+
+  .description {
+    margin-top: 21px;
+  }
+  .description h6 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px;
+    color: #ffffff;
+  }
+
+  .timeRow {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    align-items: center;
+  }
+  .edge h6 {
+    font-size: 19px;
+    margin: 0;
+    color: #ffffff;
+    font-weight: 500;
+  }
+  .mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ffffff;
+
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 2px;
+    height: 27px;
+  }
+  .mid h6 {
+    font-size: 19px;
+    color: #ffffff;
+    font-weight: 500;
+  }
+
+  .buttonRow {
+    display: flex;
+    flex-direction: row;
+    margin-top: 19px;
+    align-items: center;
+  }
+
+  .TrailerButton {
+    margin-left: 16px;
+  }
+
+  .heart img {
+    width: 36px;
+    height: 36px;
+    margin-left: 16px;
+  }
+
+  .icons img {
+    width: 31px;
+    height: 31px;
+    margin-left: 16px;
+  }
+
+  .share {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    border: 2px solid #ffffff;
+    margin-left: 16px;
+  }
+  .share img {
+    width: 16px;
+    height: 16px;
+    /* margin-left: 20px; */
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  .title {
+    width: 100%;
+  }
+  .title h2 {
+    font-size: 23px;
+    color: #67fd65;
+    margin: 0;
+  }
+
+  .description {
+    margin-top: 10px;
+  }
+  .description h6 {
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0px;
+    color: #ffffff;
+  }
+
+  .timeRow {
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+    align-items: center;
+  }
+  .edge h6 {
+    font-size: 14px;
+    margin: 0;
+    color: #ffffff;
+    font-weight: 500;
+  }
+  .mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ffffff;
+
+    margin-left: 9px;
+    margin-right: 9px;
+    padding: 1px;
+    height: 20px;
+  }
+  .mid h6 {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 500;
+  }
+
+  .buttonRow {
+    display: flex;
+    flex-direction: row;
+    margin-top: 14px;
+    align-items: center;
+  }
+
+  .TrailerButton {
+    margin-left: 12px;
+  }
+
+  .heart img {
+    width: 27px;
+    height: 27px;
+    margin-left: 12px;
+  }
+
+  .icons img {
+    width: 23px;
+    height: 23px;
+    margin-left: 11px;
+  }
+
+  .share {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 11px;
+    border: 2px solid #ffffff;
+    margin-left: 12px;
+  }
+  .share img {
+    width: 12px;
+    height: 12px;
+    /* margin-left: 20px; */
+    object-fit: contain;
+  }
+}

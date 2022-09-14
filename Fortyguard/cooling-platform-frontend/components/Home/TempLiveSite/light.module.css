@@ -1,0 +1,148 @@
+.main-div {
+  width: 100%;
+  height: 100%;
+}
+.text-div {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.blue-text {
+  color: #0091d0;
+}
+.temp-img-div {
+  width: 100%;
+  border-radius: 10px;
+  height: 200px;
+}
+.temp-top-div {
+  width: 100%;
+  height: 60px;
+  background: #e6e9f3;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.temp-top-left-div {
+  font-size: 11px;
+  font-weight: 30px;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-top: 10px;
+}
+.contry-text {
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  color: #0d1220;
+  text-align: center;
+  font-weight: 700;
+}
+.city-text {
+  font-size: 9px;
+  display: flex;
+  align-items: center;
+  color: #494d58;
+  text-align: center;
+  font-weight: 700;
+}
+.temp-top-mid-div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  color: #0091d0;
+}
+.temp-top-right-div {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  font-size: 11px;
+}
+.temp-value {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0d1220;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.date-value {
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  color: #494d58;
+  text-align: center;
+  font-weight: 700;
+}
+.time-value {
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  color: #494d58;
+  text-align: center;
+  font-weight: 700;
+}
+.temp-bottom-div {
+  height: 124px;
+  margin-top: 10px;
+  width: 100%;
+}
+.temp-bottom-sub1-div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.temp-bottom-sub2-div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.temp-bottom-sub3-div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.temp-bottom-sub4-div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.temp-bottom-fst-div {
+  width: 95%;
+  height: 100%;
+  background-color: #e6e9f3;
+  border-radius: 10px;
+  padding: 5px;
+}
+.fst-title-div {
+  padding-top: 3px;
+  width: 100%;
+  height: 33%;
+  font-size: 11px;
+  font-weight: 700;
+  color: #494d58;
+  text-align: center;
+}
+.fst-icon-div {
+  width: 100%;
+  height: 33%;
+  font-size: 20px;
+  color: #494d58;
+  text-align: center;
+}
+.fst-value-div {
+  width: 100%;
+  height: 33%;
+  font-size: 15px;
+  font-weight: bolder;
+  color: #0091d0;
+  text-align: center;
+}

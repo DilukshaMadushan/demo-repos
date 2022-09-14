@@ -1,0 +1,82 @@
+.mainDiv {
+  background-color: #f6f8ff;
+  height: 210px;
+  width: 140px;
+  border-radius: 8px;
+  border: 2px solid #e6e9f3;
+  padding: 5px;
+}
+.titleDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0d1220;
+  width: 100%;
+  height: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.descDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #494d58;
+  font-size: 12px;
+  font-weight: 700;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 5px;
+}
+.tempDiv {
+  display: flex;
+  width: 100%;
+  height: 20px;
+  margin-top: 4px;
+}
+.tempColor1 {
+  background-color: rgb(11, 104, 226);
+  height: 100%;
+  border-radius: 8px;
+  width: 30%;
+}
+.tempColor2 {
+  background-color: rgb(0, 217, 255);
+  height: 100%;
+  border-radius: 8px;
+  width: 30%;
+}
+.tempColor3 {
+  background-color: rgb(180, 241, 243);
+  height: 100%;
+  border-radius: 8px;
+  width: 30%;
+}
+.tempColor4 {
+  background-color: rgb(235, 174, 83);
+  height: 100%;
+  border-radius: 8px;
+  width: 30%;
+}
+.tempColor5 {
+  background-color: rgb(235, 117, 20);
+  height: 100%;
+  border-radius: 8px;
+  width: 30%;
+}
+.tempColor6 {
+  background-color: rgb(255, 51, 0);
+  height: 100%;
+  border-radius: 8px;
+  width: 30%;
+}
+.tempRange {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0d1220;
+  height: 100%;
+  font-size: 10px;
+  font-weight: 700;
+  width: 70%;
+}

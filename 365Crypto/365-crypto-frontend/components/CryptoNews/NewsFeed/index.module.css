@@ -1,0 +1,586 @@
+.mainDiv {
+  margin-left: 12px;
+  margin-top: 20px;
+  width: 100%;
+  overflow-y: auto;
+  background-color: rgba(0, 0, 255, 0);
+}
+
+.newsFeedDiv {
+  background-color: rgba(0, 255, 255, 0);
+  margin-right: 12px;
+  max-height: 525px;
+}
+.mainDiv::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+  background: none;
+}
+.mainDiv::-webkit-scrollbar-thumb {
+  background: #4e4e4e25;
+  border-radius: 2px;
+}
+.loadingCard {
+  background: #29292950;
+  border-radius: 20px;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.singleNewsDiv {
+  background-color: #232327;
+  border-radius: 20px;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.upperDiv {
+  display: flex;
+  align-items: center;
+}
+.lowerDiv {
+  display: none;
+}
+.imageDiv {
+  background-color: rgba(222, 184, 135, 0);
+  height: 160px;
+  max-width: 200px;
+  min-width: 200px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.infoDiv {
+  background-color: rgba(152, 222, 135, 0);
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+.newsDiv {
+  background-color: rgba(184, 135, 11, 0);
+}
+
+.newsTitle {
+  background-color: rgba(165, 42, 42, 0);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  max-height: 25px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  word-break: break-word;
+}
+.newsDiscrip {
+  background-color: rgba(34, 236, 51, 0);
+  color: #969696;
+  font-size: 12px;
+  font-weight: 500;
+  height: 75px;
+  max-height: 75px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  word-break: break-word;
+}
+.coinBtnDiv {
+  margin-top: 5px;
+  background-color: rgba(128, 255, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.coinBtb {
+  background-color: #2e303e;
+  align-items: center;
+  text-align: center;
+  border: none;
+  color: #fff;
+  font-size: 10px;
+  width: 50px;
+  height: 20px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.coinBtbSkel {
+  background-color: #29292900;
+  align-items: center;
+  text-align: center;
+  border: none;
+  color: #fff;
+  font-size: 10px;
+  width: 50px;
+  height: 20px;
+  border-radius: 5px;
+}
+.coinBtb:hover {
+  filter: brightness(1.3);
+}
+.othersDiv {
+  margin-top: 5px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dateDiv {
+  background-color: #410ca300;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 10px;
+}
+.positiveStatusDiv {
+  background-color: rgba(255, 255, 255, 0);
+  color: #2bbf7f;
+  font-size: 10px;
+  font-weight: 600;
+  margin-right: 30px;
+}
+.negativeStatusDiv {
+  background-color: rgba(255, 255, 255, 0);
+  color: #ff4a55;
+  font-size: 10px;
+  font-weight: 600;
+  margin-right: 30px;
+}
+.neutralStatusDiv {
+  background-color: rgba(255, 255, 255, 0);
+  color: #40b0ff;
+  font-size: 10px;
+  font-weight: 600;
+  margin-right: 30px;
+}
+.nextPrevBtnDiv {
+  background-color: rgba(137, 43, 226, 0);
+  margin-top: 10px;
+}
+@media (max-width: 900px) {
+  .mainDiv {
+    margin-left: 12px;
+    width: 100%;
+  }
+  .newsFeedDiv {
+    background-color: rgba(0, 255, 255, 0);
+    margin-right: 12px;
+  }
+  .singleNewsDiv {
+    background-color: #232327;
+    border-radius: 15px;
+    align-items: center;
+    padding: 10px;
+  }
+  .imageDiv {
+    background-color: rgba(222, 184, 135, 0);
+    height: 160px;
+    min-width: 150px;
+    min-width: 150px;
+    margin-right: 20px;
+  }
+  .image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  .infoDiv {
+    background-color: rgba(152, 222, 135, 0);
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-content: space-between;
+  }
+  .newsDiv {
+    background-color: rgba(184, 135, 11, 0);
+  }
+  .newsTitle {
+    background-color: rgba(165, 42, 42, 0);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    max-height: 25px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
+  .newsDiscrip {
+    background-color: rgba(34, 236, 51, 0);
+    color: #969696;
+    font-size: 12px;
+    height: 75px;
+    max-height: 75px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+  }
+  .coinBtnDiv {
+    margin-top: 5px;
+    background-color: rgba(128, 255, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+  }
+  .coinBtb {
+    background-color: #2e303e;
+    align-items: center;
+    text-align: center;
+    border: none;
+    color: #fff;
+    font-size: 10px;
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+  }
+  .dateDiv {
+    background-color: #410ca300;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 10px;
+  }
+  .positiveStatusDiv {
+    background-color: rgba(255, 255, 255, 0);
+    color: #2bbf7f;
+    font-size: 10px;
+    font-weight: 600;
+    margin-right: 10px;
+  }
+  .negativeStatusDiv {
+    background-color: rgba(255, 255, 255, 0);
+    color: #ff4a55;
+    font-size: 10px;
+    margin-right: 10px;
+  }
+  .neutralStatusDiv {
+    background-color: rgba(255, 255, 255, 0);
+    color: #40b0ff;
+    font-size: 10px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .mainDiv {
+    margin: 0;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0 10px;
+  }
+  .newsFeedDiv {
+    background-color: rgba(0, 255, 255, 0);
+    width: 100%;
+    max-height: 450px;
+  }
+  .singleNewsDiv {
+    background-color: #232327;
+    border-radius: 15px;
+    align-items: center;
+    padding: 10px;
+  }
+  .imageDiv {
+    background-color: rgba(222, 184, 135, 0);
+    height: 160px;
+    max-width: 200px;
+    min-width: 200px;
+    margin-right: 20px;
+  }
+  .image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  .infoDiv {
+    background-color: rgba(152, 222, 135, 0);
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-content: space-between;
+  }
+  .newsDiv {
+    background-color: rgba(184, 135, 11, 0);
+  }
+  .newsTitle {
+    background-color: rgba(165, 42, 42, 0);
+    color: white;
+    font-size: 14px;
+    max-height: 25px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
+
+  .newsDiscrip {
+    background-color: rgba(236, 199, 34, 0);
+    color: #969696;
+    font-size: 10px;
+    font-size: 12px;
+    height: 75px;
+    max-height: 75px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+  }
+  .coinBtnDiv {
+    margin-top: 5px;
+    background-color: rgba(128, 255, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+  }
+  .coinBtb {
+    background-color: #2e303e;
+    align-items: center;
+    text-align: center;
+    border: none;
+    color: #fff;
+    font-size: 10px;
+    width: 40px;
+    height: 20px;
+    border-radius: 5px;
+  }
+  .dateDiv {
+    background-color: #410ca300;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 10px;
+  }
+  .positiveStatusDiv {
+    background-color: rgba(255, 255, 255, 0);
+    color: #2bbf7f;
+    font-size: 10px;
+    font-weight: 600;
+    margin-right: 5px;
+  }
+  .negativeStatusDiv {
+    background-color: rgba(255, 255, 255, 0);
+    color: #ff4a55;
+    font-size: 10px;
+    margin-right: 5px;
+  }
+  .neutralStatusDiv {
+    background-color: rgba(255, 255, 255, 0);
+    color: #40b0ff;
+    font-size: 10px;
+    margin-right: 5px;
+  }
+}
+@media (max-width: 500px) {
+  .mainDiv {
+    margin: 0;
+    margin-top: 20px;
+    width: 100%;
+    padding: 0 10px;
+  }
+  .newsFeedDiv {
+    background-color: rgba(0, 255, 255, 0);
+    width: 100%;
+    max-height: 350px;
+  }
+  .singleNewsDiv {
+    background-color: #232327;
+    border-radius: 15px;
+    align-items: center;
+    padding: 10px;
+  }
+  .imageDiv {
+    background-color: rgba(222, 184, 135, 0);
+    height: 165px;
+    max-width: 125px;
+    min-width: 125px;
+    margin-right: 20px;
+  }
+  .image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  .infoDiv {
+    background-color: rgba(152, 222, 135, 0);
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-content: space-between;
+  }
+  .newsDiv {
+    background-color: rgba(184, 135, 11, 0);
+  }
+  .newsTitle {
+    background-color: rgba(165, 42, 42, 0);
+    color: white;
+    font-size: 14px;
+    max-height: 25px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
+  .newsDiscrip {
+    background-color: rgba(236, 199, 34, 0);
+    color: #969696;
+    font-size: 12px;
+  }
+  .coinBtnDiv {
+    margin-top: 5px;
+    background-color: rgba(128, 255, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+  }
+  .coinBtb {
+    background-color: #2e303e;
+    align-items: center;
+    text-align: center;
+    border: none;
+    color: #fff;
+    font-size: 10px;
+    width: 40px;
+    height: 20px;
+    border-radius: 5px;
+  }
+  .dateDiv {
+    background-color: #410ca300;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 10px;
+  }
+  .positiveStatusDiv {
+    background-color: rgba(255, 255, 255, 0);
+    color: #2bbf7f;
+    font-size: 10px;
+    font-weight: 600;
+    margin-right: 10px;
+  }
+  .negativeStatusDiv {
+    background-color: rgba(255, 255, 255, 0);
+    color: #ff4a55;
+    font-size: 10px;
+    margin-right: 10px;
+  }
+  .neutralStatusDiv {
+    background-color: rgba(255, 255, 255, 0);
+    color: #40b0ff;
+    font-size: 10px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 400px) {
+  .mainDiv {
+    margin: 0;
+    margin-top: 20px;
+    width: 100%;
+    padding: 0 10px;
+  }
+  .newsFeedDiv {
+    background-color: rgba(0, 255, 255, 0);
+    width: 100%;
+  }
+  .singleNewsDiv {
+    background-color: #232327;
+    border-radius: 15px;
+    align-items: center;
+    padding: 10px;
+  }
+  .lowerDiv {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(139, 0, 139, 0);
+    width: 100%;
+  }
+  .imageDiv {
+    background-color: rgba(222, 184, 135, 0);
+    height: 160px;
+    max-width: 125px;
+    min-width: 125px;
+    margin-right: 20px;
+  }
+  .image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  .infoDiv {
+    background-color: rgba(152, 222, 135, 0);
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-content: space-between;
+  }
+  .newsDiv {
+    background-color: rgba(184, 135, 11, 0);
+  }
+  .newsTitle {
+    background-color: rgba(165, 42, 42, 0);
+    color: white;
+  }
+  .newsDiscrip {
+    background-color: rgba(236, 199, 34, 0);
+    color: #969696;
+  }
+  .coinBtnDiv {
+    margin-top: 5px;
+    background-color: rgba(128, 255, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+  }
+  .coinBtb {
+    background-color: #2e303e;
+    align-items: center;
+    text-align: center;
+    border: none;
+    color: #fff;
+    font-size: 10px;
+    width: 40px;
+    height: 20px;
+    border-radius: 5px;
+  }
+  .dateDiv {
+    display: none;
+  }
+  .mobileDateDiv {
+    background-color: #410ca300;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 10px;
+  }
+  .positiveStatusDiv {
+    background-color: rgba(255, 255, 255, 0);
+    color: #2bbf7f;
+    font-size: 10px;
+    font-weight: 600;
+    margin-right: 10px;
+  }
+  .negativeStatusDiv {
+    background-color: rgba(255, 255, 255, 0);
+    color: #ff4a55;
+    font-size: 10px;
+    margin-right: 10px;
+  }
+  .neutralStatusDiv {
+    background-color: rgba(255, 255, 255, 0);
+    color: #40b0ff;
+    font-size: 10px;
+    margin-right: 10px;
+  }
+}

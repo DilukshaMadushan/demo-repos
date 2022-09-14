@@ -1,0 +1,31 @@
+.main-div {
+  width: 35px;
+  height: 80px;
+}
+.ZoomIn {
+  width: 35px;
+  height: 35px;
+  background-color: #f6f8ff;
+  color: #494d58;
+  border-radius: 6px;
+  border: 2px solid #e6e9f3;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.ZoomOut {
+  width: 35px;
+  height: 35px;
+  background-color: #f6f8ff;
+  color: #494d58;
+  border-radius: 6px;
+  margin-top: 10px;
+  border: 2px solid #e6e9f3;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}

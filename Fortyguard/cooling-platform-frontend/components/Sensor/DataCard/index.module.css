@@ -1,0 +1,84 @@
+.sensorDataDiv {
+  /* background-color: cornsilk; */
+  width: 100%;
+  height: 185px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.sensorDataTextDiv {
+  /* background-color: rgb(54, 40, 39); */
+  width: 100%;
+  height: 20px;
+}
+.dataCardDiv {
+  /* background-color: rgb(245, 228, 80); */
+  width: 100%;
+  height: 150px;
+  display: flex;
+  margin-top: 15px;
+}
+.tempHumDiv {
+  /* background-color: mintcream; */
+  width: 70%;
+  height: 100%;
+  display: flex;
+  padding-right: 15px;
+}
+.powerCoverDiv {
+  /* background-color: rgb(52, 204, 231); */
+  width: 30%;
+  height: 100%;
+  display: flex;
+}
+.temprature {
+  /* background-color: rgb(253, 5, 5); */
+  width: 50%;
+  height: 100%;
+  display: flex;
+  padding-right: 7.5px;
+}
+.tempratureComp {
+  background-color: #181f36;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+.humidity {
+  /* background-color: rgb(219, 11, 209); */
+  width: 50%;
+  height: 100%;
+  display: flex;
+  padding-left: 7.5px;
+}
+.humidityComp {
+  background-color: #181f36;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+.powerDiv {
+  /* background-color: rgb(247, 186, 186); */
+  width: 50%;
+  height: 100%;
+  display: flex;
+  padding-right: 7.5px;
+}
+.powerCompDiv {
+  background-color: #181f36;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+.coverDiv {
+  /* background-color: rgb(253, 166, 5); */
+  width: 50%;
+  height: 100%;
+  display: flex;
+  padding-left: 7.5px;
+}
+.coverCompDiv {
+  background-color: #181f36;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}

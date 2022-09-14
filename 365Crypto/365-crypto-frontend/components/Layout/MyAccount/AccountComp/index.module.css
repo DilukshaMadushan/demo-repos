@@ -1,0 +1,83 @@
+.mainDiv {
+  width: 100%;
+  height: 100%;
+}
+.titleDiv {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+.inputDiv {
+  width: 100%;
+  height: 100px;
+}
+.inputTitleDiv {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: flex-end;
+  font-size: 12px;
+  color: #fff;
+}
+.inputDivInput {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.input {
+  width: 100%;
+  height: 40px;
+  background-color: #2e303e;
+  padding-left: 15px;
+  font-size: 13px;
+  border: 0;
+  border-radius: 5px;
+  outline: 0;
+  color: #fff;
+}
+.buttonDiv {
+  width: 100%;
+  height: 160px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.button {
+  text-align: center;
+  font-family: Montserrat;
+  color: rgb(255, 255, 255);
+  background: #33b18a;
+  height: 35px;
+  width: 120px;
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 6px;
+  text-decoration: none;
+  border: none;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-image: linear-gradient(135deg, #3ecb78, #35d09f);
+}
+
+.errors {
+  font-size: 12px;
+  color: rgb(184, 63, 63);
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .mainDiv {
+    padding-top: 20px;
+  }
+  .buttonDiv {
+    justify-content: center;
+  }
+}

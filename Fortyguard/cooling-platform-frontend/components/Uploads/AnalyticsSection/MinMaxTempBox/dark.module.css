@@ -1,0 +1,13 @@
+.mainDiv {
+	padding: 0;
+	margin: 0;
+	border: 5px solid #fff;
+	border-radius: 10px;
+	box-sizing: border-box;
+	height: 240px;
+}
+.map-container {
+	background-color: rgba(255, 127, 80, 0);
+	padding: 0;
+	margin: 0;
+}

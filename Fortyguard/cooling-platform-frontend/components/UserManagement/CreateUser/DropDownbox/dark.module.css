@@ -1,0 +1,115 @@
+.mainDiv {
+  font-family: Roboto;
+  color: #eaeaea;
+  /* position: relative; */
+  height: 30px;
+  width: 120px;
+  /* margin-right: 10px; */
+  /* background-color: aqua; */
+}
+.dropDown {
+  user-select: none;
+}
+.dropdownBtn {
+  background-color: #0d1220;
+  color: #aeaeae;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0px 10px;
+}
+.dropdownBtn:hover {
+  filter: brightness(1.2);
+}
+.iconDiv {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* margin-right: 5px; */
+  /* margin-left: 5px; */
+  font-size: 15px;
+}
+
+.titleSpan {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* text-align: center; */
+}
+.arrowSpan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+}
+.dropdownContent {
+  max-height: 150px;
+  /* overflow-y: scroll; */
+  z-index: 1000 !important;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background-color: #0d1220;
+  margin-top: 5px;
+  border-radius: 8px;
+  transition: all 0.5s;
+  width: 120px;
+  padding: 2px;
+}
+.dropdownContent::-webkit-scrollbar {
+  width: 4px;
+  background: #494d58;
+  border-radius: 0 15px 15px 0;
+}
+.dropdownContent::-webkit-scrollbar-thumb {
+  width: 4px;
+  background-color: #0d1220;
+  border-radius: 2px;
+}
+
+.dropdownItemDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 5px;
+  width: 100%;
+}
+.dropdownItemDiv:hover {
+  background-color: #181f36;
+}
+
+/* @media (max-width: 376px) {
+    .iconDiv {
+      font-size: 12px;
+    }
+    .titleSpan {
+      font-size: 11px;
+    }
+    .dropdownContent {
+      width: 115px;
+    }
+  }
+  
+  @media (max-width: 365px) {
+    .dropdownBtn {
+      padding: 4px 4px;
+    }
+    .titleSpan {
+      font-size: 12px;
+      max-width: 40px;
+    }
+    .iconDiv {
+      margin-left: 2px;
+      margin-right: 2px;
+    }
+  } */

@@ -1,0 +1,150 @@
+.topNavContainer {
+  position: relative;
+  z-index: 10;
+}
+
+.topNavBar {
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0;
+  height: 107px;
+  width: 100%;
+
+  background: #07002e 0% 0% no-repeat padding-box;
+  border: 1px solid #07002e;
+  opacity: 0.3;
+}
+
+.logoContainer {
+  display: flex;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0px;
+  left: 18px;
+
+  width: 219px;
+  height: 107px;
+  border-bottom-left-radius: 33px;
+  border-bottom-right-radius: 33px;
+  background-color: #67fd65;
+  opacity: 1;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.logoImageContainer {
+  width: 159px;
+}
+.logoImageContainer > span {
+  position: unset !important;
+}
+.image {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+}
+
+.loginButtonContainer {
+  position: fixed;
+  top: 26px;
+  right: 55px;
+  width: 195px;
+  height: 55px;
+}
+
+/* For Large devices ( less than 1500px) */
+
+@media (max-width: 1550px) {
+  .topNavContainer {
+  }
+
+  .topNavBar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    height: 84px;
+    width: 100%;
+
+    background: #07002e 0% 0% no-repeat padding-box;
+    border: 1px solid #07002e;
+    opacity: 0.3;
+  }
+
+  .logoContainer {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 14px;
+
+    width: 172px;
+    height: 84px;
+    border-bottom-left-radius: 33px;
+    border-bottom-right-radius: 33px;
+    background-color: #67fd65;
+    opacity: 1;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logoImageContainer {
+    width: 125px;
+  }
+
+  .loginButtonContainer {
+    position: fixed;
+    top: 20px;
+    right: 43px;
+    width: 153px;
+    height: 43px;
+  }
+}
+
+/* For small devices ( less than 768px) */
+
+@media (max-width: 768px) {
+  .topNavContainer {
+  }
+
+  .topNavBar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    height: 63px;
+    width: 100%;
+
+    background: #07002e 0% 0% no-repeat padding-box;
+    border: 1px solid #07002e;
+    opacity: 0.3;
+  }
+
+  .logoContainer {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 12px;
+
+    width: 129px;
+    height: 63px;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    background-color: #67fd65;
+    opacity: 1;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logoImageContainer {
+    width: 94px;
+  }
+
+  .loginButtonContainer {
+    position: fixed;
+    top: 17px;
+    right: 10px;
+    width: 110px;
+    height: 28px;
+  }
+}

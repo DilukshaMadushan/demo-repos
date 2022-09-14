@@ -1,0 +1,34 @@
+.main-div {
+  width: 100%;
+  height: 100%;
+}
+.wind-img-div {
+  width: 100%;
+  border-radius: 10px;
+  height: 200px;
+  background-color: #fff;
+  font-size: 9px;
+  font-weight: 700;
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
+}
+/* .PolarChart {
+  height: 200px;
+} */
+.radarChart {
+  height: 205px;
+  color: #0d1220;
+}
+.text-div {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.blue-text {
+  color: #0091d0;
+}
+.img {
+  width: 316px;
+  height: 100%;
+  border-radius: 8px;
+}

@@ -1,0 +1,108 @@
+.main-div {
+  width: 100%;
+  height: 320px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -ms-overflow-style: none;
+}
+.main-div::-webkit-scrollbar {
+  height: 1px;
+  background: #232327;
+}
+.main-div::-webkit-scrollbar-thumb {
+  height: 1px;
+  background: #232327;
+}
+.sub-div {
+  width: 100%;
+}
+.title-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  text-align: center;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: flex-end;
+}
+@media (min-width: 768px) and (max-width: 900px) {
+  .sub-div {
+    width: 450px;
+  }
+}
+@media (max-width: 500px) {
+  .sub-div {
+    width: 450px;
+  }
+}
+/* skeleton styles */
+.skeletonMain-div {
+  width: 100%;
+  height: 320px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.skeletonTitle-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skeletonBtn-div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+.pair-div {
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 15px;
+}
+.skeletonChart-div {
+  width: 100%;
+  height: 75%;
+}
+.skeletonChart-div {
+  width: 100%;
+  height: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skeletonName-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.name-div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.EmptyData-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #48484e;
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 25%;
+}
+.noData-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+}

@@ -1,0 +1,254 @@
+.modalbody {
+  top: 7vh;
+  width: 780px;
+  height: 500px;
+  background-color: black;
+  border-radius: 20px;
+  font-family: Montserrat;
+}
+.crossDiv {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-right: 15px;
+}
+.mobileArrow {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: #2e303e;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: auto;
+  margin-top: auto;
+  margin-left: 20px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+.cross {
+  width: 25px;
+  color: rgb(226, 19, 19);
+  height: 25px;
+  border-radius: 5px;
+  background-color: #2e303e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: auto;
+  margin-top: auto;
+}
+.cross:hover {
+  filter: brightness(1.5);
+}
+.desktopDiv {
+  display: flex;
+}
+.mobileDiv {
+  display: none;
+}
+.mainDiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 40px;
+  padding-top: 0;
+}
+.titleDiv {
+  width: 40%;
+  height: 420px;
+  border-right: 2px solid #232327;
+}
+.accountDiv {
+  width: 100%;
+  height: 25%;
+  /* background-color: chartreuse; */
+  border-bottom: 2px solid #232327;
+  display: flex;
+  padding: 10px;
+}
+.iconDiv {
+  width: 15%;
+  height: 100%;
+  /* background-color: crimson; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #2e303e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.icon:hover {
+  background-color: #33b18a;
+}
+.iconSelected {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #33b18a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.titleTextDiv {
+  width: 75%;
+  height: 100%;
+  /* background-color: cyan; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: gray;
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 15px;
+}
+.titleTextDivSelected {
+  width: 75%;
+  height: 100%;
+  /* background-color: cyan; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  padding-left: 15px;
+}
+.arrowDiv {
+  width: 10%;
+  height: 100%;
+  /* background-color: crimson; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+.securityDiv {
+  width: 100%;
+  height: 25%;
+  /* background-color: chartreuse; */
+  border-bottom: 2px solid #232327;
+  display: flex;
+  padding: 10px;
+}
+.preferencesDiv {
+  width: 100%;
+  height: 25%;
+  /* background-color: chartreuse; */
+  border-bottom: 2px solid #232327;
+  display: flex;
+  padding: 10px;
+}
+.logOutDiv {
+  width: 100%;
+  height: 25%;
+  /* background-color: chartreuse; */
+  display: flex;
+  padding: 10px;
+}
+.contentDiv {
+  width: 60%;
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  /* background-color: rgb(96, 96, 201); */
+}
+
+@media (max-width: 800px) {
+  .modalbody {
+    top: 7vh;
+    width: 100vw;
+    height: 500px;
+    background-color: black;
+    border-radius: 20px;
+    font-family: Montserrat;
+  }
+}
+
+@media (max-width: 600px) {
+  .modal {
+    background-color: black;
+  }
+  .modalbody {
+    position: absolute;
+    background: black;
+    border-radius: 0;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+  }
+}
+@media (max-width: 600px) {
+  .desktopDiv {
+    display: none;
+  }
+  .mobileDiv {
+    display: flex;
+  }
+  .modalbody {
+    width: 100%;
+    height: 100%;
+  }
+  .crossDiv {
+    padding-right: 20px;
+  }
+  .mobileArrow {
+    display: flex;
+  }
+  .mainDiv {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .titleDiv {
+    width: 100%;
+    height: 100%;
+    border-right: 0;
+  }
+  .accountDiv {
+    height: 80px;
+    padding: 0;
+  }
+  .iconDiv {
+    justify-content: flex-start;
+  }
+  .arrowDiv {
+    justify-content: flex-end;
+  }
+  .securityDiv {
+    height: 80px;
+    padding: 0;
+  }
+  .preferencesDiv {
+    height: 80px;
+    padding: 0;
+  }
+  .logOutDiv {
+    height: 80px;
+    padding: 0;
+  }
+}

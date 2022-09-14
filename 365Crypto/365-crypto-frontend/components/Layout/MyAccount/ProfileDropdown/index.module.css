@@ -1,0 +1,131 @@
+.mainDiv {
+  font-family: Montserrat;
+  color: rgb(255, 255, 255);
+  position: relative;
+  height: 25px;
+  margin-right: 10px;
+}
+.dropDown {
+  user-select: none;
+}
+.dropdownBtn {
+  background-color: #15141b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 5px 5px;
+}
+.iconDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 12px;
+}
+.arrowSpan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+.dropdownContent {
+  width: 180px;
+  height: 180px;
+  z-index: 1000 !important;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background-color: #232327;
+  margin-top: 10px;
+  border-radius: 8px;
+  transition: all 0.5s;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  right: 1px;
+}
+
+.titleDiv {
+  width: 100%;
+  height: 100%;
+}
+.accountDiv {
+  width: 100%;
+  height: 40px;
+  /* background-color: chartreuse; */
+  border-bottom: 1px solid rgb(73, 71, 71);
+  display: flex;
+  cursor: pointer;
+}
+.iconDiv {
+  width: 15%;
+  height: 100%;
+  /* background-color: crimson; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: #2e303e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.icon:hover {
+  background-color: #33b18a;
+}
+.iconSelected {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: #33b18a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.titleTextDiv {
+  width: 100%;
+  height: 100%;
+  /* background-color: cyan; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: gray;
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.securityDiv {
+  width: 100%;
+  height: 25%;
+  /* background-color: chartreuse; */
+  border-bottom: 1px solid rgb(73, 71, 71);
+  display: flex;
+  cursor: pointer;
+}
+.preferencesDiv {
+  width: 100%;
+  height: 25%;
+  /* background-color: chartreuse; */
+  border-bottom: 1px solid rgb(73, 71, 71);
+  display: flex;
+  cursor: pointer;
+}
+.logOutDiv {
+  width: 100%;
+  height: 25%;
+  /* background-color: chartreuse; */
+  display: flex;
+  cursor: pointer;
+}

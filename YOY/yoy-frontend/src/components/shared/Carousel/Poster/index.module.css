@@ -1,0 +1,218 @@
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  display: block;
+  overflow: hidden;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.card:hover {
+  transition: transform 0.5s;
+  transform: scale(1.1);
+  border: 5px solid;
+  border-color: #67fd65;
+}
+
+.iconFooter {
+  display: flex;
+  height: auto;
+  position: absolute;
+  width: 300px;
+  display: none;
+  bottom: 0;
+}
+
+.iconRight {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 40px;
+  margin-right: 10px;
+  -webkit-transition: visibility 0s, opacity 5s linear;
+  transition: visibility 0s, opacity 5s linear;
+  cursor: pointer;
+}
+
+.iconMiddle {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  float: center;
+  font-size: 40px;
+  left: 40%;
+  -webkit-transition: visibility 0s, opacity 5s linear;
+  transition: visibility 0s, opacity 5s linear;
+  cursor: pointer;
+}
+
+.iconLeft {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  float: center;
+  font-size: 40px;
+  -webkit-transition: visibility 0s, opacity 5s linear;
+  transition: visibility 0s, opacity 5s linear;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.card:hover .iconFooter {
+  display: inline-block;
+  width: 160px;
+}
+
+@media (max-width: 1550px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    padding: 14px;
+  }
+
+  .card {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  .card:hover {
+    transition: transform 0.5s;
+    transform: scale(1.1);
+    border: 4px solid;
+    border-color: #67fd65;
+  }
+
+  .iconFooter {
+    display: flex;
+    height: auto;
+    position: absolute;
+    width: 180px;
+    display: none;
+    bottom: 0;
+  }
+
+  .iconRight {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 39px;
+    margin-right: 10px;
+    -webkit-transition: visibility 0s, opacity 5s linear;
+    transition: visibility 0s, opacity 5s linear;
+    cursor: pointer;
+  }
+
+  .iconMiddle {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    float: center;
+    font-size: 39px;
+    left: 40%;
+    -webkit-transition: visibility 0s, opacity 5s linear;
+    transition: visibility 0s, opacity 5s linear;
+    cursor: pointer;
+  }
+
+  .iconLeft {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    float: center;
+    font-size: 39px;
+    -webkit-transition: visibility 0s, opacity 5s linear;
+    transition: visibility 0s, opacity 5s linear;
+    cursor: pointer;
+    margin-left: 8px;
+  }
+
+  .card:hover .iconFooter {
+    display: block;
+    width: 170px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: auto;
+    padding: 0;
+    display: block;
+    overflow: visible;
+  }
+
+  .card {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card img {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 18px;
+  }
+
+  .card:hover {
+    transition: transform 0.3s;
+    transform: scale(1.05);
+    border: none;
+  }
+
+  .card:hover .iconFooter {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .card:hover .iconFooter {
+    display: block;
+    width: 150px;
+  }
+
+  .iconRight {
+    font-size: 35px;
+  }
+
+  .iconMiddle {
+    font-size: 35px;
+    left: 38%;
+  }
+
+  .iconLeft {
+    font-size: 35px;
+  }
+}

@@ -1,0 +1,47 @@
+.mainDiv {
+	padding: 0;
+	margin: 0;
+	margin-top: 50px;
+}
+.pagiDiv {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 0 20px;
+}
+.pageNo {
+	background-color: #131924;
+	padding: 0 20px;
+	border-radius: 10px;
+	font-size: 15px;
+	font-weight: 500;
+	color: #eaeaea;
+	margin-right: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+}
+.pagePrev {
+	background-color: #131924;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	width: 50px;
+	border-radius: 10px;
+	margin-right: 20px;
+	font-size: 20px;
+	cursor: pointer;
+}
+.pageNext {
+	background-color: #131924;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	width: 50px;
+	border-radius: 10px;
+	font-size: 20px;
+	cursor: pointer;
+}

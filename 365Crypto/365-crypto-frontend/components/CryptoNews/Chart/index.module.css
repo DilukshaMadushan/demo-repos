@@ -1,0 +1,113 @@
+.mainDiv {
+  font-family: Montserrat;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  padding-left: 12px;
+  margin-right: 12px;
+}
+
+.loadingDiv {
+  background-color: #29292950;
+  height: 575px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 30px 20px;
+}
+.loadingUpper {
+  background-color: rgba(0, 255, 255, 0);
+  margin-bottom: 5px;
+  height: 50px;
+  width: 100%;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.loadingMiddle {
+  background-color: rgba(0, 4, 255, 0);
+  margin-bottom: 5px;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.loadingLower {
+  background-color: rgba(255, 0, 191, 0);
+  margin-bottom: 5px;
+  height: 50px;
+  width: 100%;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.chartDiv {
+  background-color: #232327;
+  width: 100%;
+  height: 575px;
+  border-radius: 20px;
+  display: grid;
+  align-items: center;
+  padding-top: 20px;
+}
+
+@media (max-width: 499px) {
+  .mainDiv {
+    font-family: Montserrat;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    padding-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+  }
+  .chartDiv {
+    background-color: #232327;
+    width: 100%;
+    height: 450px;
+    border-radius: 20px;
+    display: grid;
+    align-items: center;
+    padding-top: 30px;
+    padding-right: 12px;
+  }
+  .loadingDiv {
+    background-color: #29292950;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 15px 15px;
+  }
+  .loadingUpper {
+    background-color: rgba(0, 255, 255, 0);
+    margin-bottom: 5px;
+    height: 50px;
+    width: 100%;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .loadingMiddle {
+    background-color: rgba(0, 4, 255, 0);
+    margin-bottom: 5px;
+    height: 305px;
+    width: 100%;
+  }
+
+  .loadingLower {
+    background-color: rgba(255, 0, 191, 0);
+    margin-bottom: 5px;
+    height: 50px;
+    width: 100%;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,125 @@
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.modalbody {
+  top: 7vh;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: black !important;
+  border-radius: 20px;
+  border: none;
+ 
+	
+}
+
+.container {
+  flex-direction: column;
+  padding: 5px;
+  padding-bottom: 30px;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+
+	border: none;
+  
+}
+
+.closebtn {
+  /* display: none; */
+  /* background-color: black; */
+  /* padding: 2px;
+  margin: 4px;
+  border-radius: 10px; */
+  /* color:black; */
+  align-self: flex-end;
+
+
+  display: block;
+  background-color: #2e303e;
+  padding: 4px;
+  margin: 4px;
+
+  text-align: center;
+
+  height: 30px;
+  width: 30px;
+
+  border-radius: 6px;
+  text-decoration: none;
+  border: none;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+  padding-top: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+ 
+  margin-bottom: 10px;
+  margin-left: 7.2%;
+}
+.message {
+  color: #33b18a;
+  font-family: Montserrat;
+  text-decoration: none;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  /* .modal {
+		background-color: black;
+	}
+	.modalbody {
+		position: absolute;
+		background: black;
+		border-radius: 0;
+		height: 100%;
+		width: 100%;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		padding: 0;
+		margin: 0;
+		border-radius: 0;
+	}
+
+	
+	.container {
+		display: flex;
+		flex-direction: column;
+
+		margin-top: 10px;
+
+		height: 100vh;
+		width: 100%;
+	}
+	.controller {
+		margin-top: 23px;
+		padding: 1px;
+		padding-left: 35px;
+		margin-bottom: 2px;
+	}
+	.backarrow {
+		display: block;
+		background-color: #2e303e;
+		padding: 4px;
+		margin: 4px;
+
+		text-align: center;
+
+		height: 30px;
+		width: 30px;
+
+		border-radius: 6px;
+		text-decoration: none;
+		border: none;
+		transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+		cursor: pointer;
+		padding-top: 0;
+		margin-top: 30px;
+		margin-bottom: 10px;
+		margin-left: 7.2%;
+	} */
+}

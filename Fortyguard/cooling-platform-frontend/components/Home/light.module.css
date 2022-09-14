@@ -1,0 +1,126 @@
+.main-div {
+  width: 100%;
+  background-color: #e6e9f3;
+}
+.upper-div {
+  width: 100%;
+}
+.home-div {
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+  color: #0d1220;
+  margin-bottom: 10px;
+}
+.dropdown-div {
+  height: 50px;
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+}
+.dropdown {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #f6f8ff;
+  border-radius: 10px;
+  padding: 10px 0;
+}
+.temp-dropdown {
+  width: 160px;
+  height: 100%;
+  background-color: #e6e9f3;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.arrow {
+  margin-left: auto;
+}
+.date-dropdown {
+  width: 160px;
+  height: 100%;
+  background-color: #e6e9f3;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.download-div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-left: 10px;
+}
+.download {
+  height: 100%;
+  width: 50px;
+  border-radius: 10px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  background-color: #f6f8ff;
+  cursor: pointer;
+}
+.download-cloud {
+  height: 100%;
+  width: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  background-color: #f6f8ff;
+  cursor: pointer;
+}
+.map-div {
+  width: 100%;
+  margin-top: 20px;
+  height: auto;
+}
+.left-div {
+  height: 671px;
+  /* padding-left: 50px; */
+  padding-left: 0;
+  padding-right: 15px;
+}
+.right-div {
+  height: 100%;
+}
+.text-div {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.blue-text {
+  color: #0091d0;
+}
+.right-first-div {
+  width: 100%;
+  background-color: #f6f8ff;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+.right-middle-div {
+  width: 100%;
+  background-color: #f6f8ff;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.alerts-div {
+  width: 100%;
+  background-color: #f6f8ff;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-top: 15px;
+}

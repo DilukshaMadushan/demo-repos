@@ -1,0 +1,48 @@
+.wrapperDiv {
+	font-family: Montserrat;
+	color: White;
+	padding: 0;
+	background: rgba(255, 0, 0, 0);
+}
+.candleChartDiv {
+	padding: 10px 30px 10px 30px;
+	margin: 0;
+	width: 100%;
+	height: 650px;
+	border-radius: 1vw;
+	background-color: #171b26;
+}
+.titleDiv {
+	background-color: rgba(0, 128, 0, 0);
+	height: 40px;
+	font-size: 20px;
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.candleStickChartDiv {
+	background-color: rgba(70, 175, 179, 0);
+	height: 470px;
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+}
+.skeletonDiv {
+	width: 300px;
+	height: 30px;
+}
+@media (max-width: 768px) {
+	.titleDiv {
+		font-size: 16px;
+	}
+}
+@media (max-width: 576px) {
+	.candleChartDiv {
+		padding: 10px 10px 10px 10px;
+		height: 470px;
+	}
+	.candleStickChartDiv {
+		font-size: 8px;
+	}
+}

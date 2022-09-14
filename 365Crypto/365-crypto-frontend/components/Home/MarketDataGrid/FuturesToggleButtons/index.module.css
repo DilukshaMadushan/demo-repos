@@ -1,0 +1,93 @@
+.mainDiv {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.carousel {
+	width: 100%;
+}
+.togglebutton {
+	background-color: #15141b;
+	height: 35px;
+	width: 180px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-right: 160px;
+	margin-left: 40px;
+}
+
+.togglebuttonSelected {
+	background-color: #2e303e;
+	height: 35px;
+	width: 180px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-right: 160px;
+	margin-left: 40px;
+}
+
+.toggle-img {
+	width: 100%;
+}
+/* skeleton toggle button  */
+.FutureCoin {
+	background-color: #15141b;
+	height: 35px;
+	width: 180px;
+	border-radius: 10px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-right: 38px;
+}
+
+@media (max-width: 464px) {
+	.togglebutton {
+		height: 30px;
+		width: 100px;
+		padding: 0px;
+		margin-left: 10px;
+	}
+
+	.togglebuttonSelected {
+		height: 30px;
+		width: 100px;
+		padding: 0px;
+		margin-left: 10px;
+	}
+	.FutureCoin {
+		height: 30px;
+		width: 100px;
+		padding: 0px;
+		margin-left: 10px;
+	}
+}
+
+@media (min-width: 464px) and (max-width: 780px) {
+	.togglebutton {
+		width: 18vw;
+		padding: 0px;
+	}
+	.togglebuttonSelected {
+		width: 18vw;
+		padding: 0px;
+	}
+	.FutureCoin {
+		width: 18vw;
+		padding: 0px;
+	}
+}
+
+.sldr-style {
+	width: 1000px;
+}

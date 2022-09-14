@@ -1,0 +1,193 @@
+/* -----loading comp styling start---- */
+
+.loadingCard {
+	background-color: #29292950;
+	height: 110px;
+	width: 90%;
+	border-radius: 20px;
+}
+/* -----loading comp styling end---- */
+
+.mainDiv {
+	font-family: Montserrat;
+	color: white;
+	background-color: rgba(137, 43, 226, 0);
+	padding: 0;
+	margin: 0;
+}
+.upperDiv {
+	background-color: rgba(226, 198, 43, 0);
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.title {
+	font-size: 20px;
+	font-weight: 600;
+}
+.cardAnchor:hover {
+	color: #fff;
+}
+.lowerDiv {
+	background-color: rgba(226, 70, 43, 0);
+	height: 200px;
+	display: flex;
+	align-items: center;
+}
+
+.card {
+	background-color: #232327;
+	height: 110px;
+	width: 90%;
+	border-radius: 20px;
+}
+.card:hover {
+	margin-bottom: 2px;
+}
+.cardInsideUpperDiv {
+	background-color: rgba(255, 255, 255, 0);
+	height: 30px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+.coinLogoMainDiv {
+	background-color: rgba(0, 255, 255, 0);
+	width: 60px;
+	border-radius: 30px;
+}
+.logo {
+	background-color: rgba(255, 30, 0, 0);
+	height: 60px;
+	width: 60px;
+	border-radius: 30px;
+}
+.cardInsideLowerDiv {
+	background-color: rgba(255, 0, 0, 0);
+	height: 70px;
+}
+.infoDiv {
+	background-color: rgba(255, 166, 0, 0);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 20px;
+	height: 30px;
+}
+.dateDiv {
+	background-color: rgba(255, 0, 0, 0);
+	display: flex;
+	align-items: flex-end;
+	height: 30px;
+}
+.date {
+	opacity: 70%;
+	font-size: 12px;
+	font-weight: 500;
+}
+.tag {
+	background-color: rgba(114, 128, 250, 0);
+	font-size: 12px;
+	font-weight: 500;
+	height: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+}
+
+.singleStatusIcon {
+	height: 18px;
+	width: 18px;
+	object-fit: contain;
+	margin-right: 3px;
+	border-radius: 9px;
+}
+
+.singleStatusIconHide {
+	display: none;
+}
+
+.event {
+	background-color: rgba(0, 255, 255, 0);
+	max-height: 25px;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 0 20px;
+}
+
+@media (max-width: 900px) {
+	.date {
+		font-size: 10px;
+	}
+	.tag {
+		font-size: 9px;
+	}
+}
+@media (max-width: 768px) {
+	.tag {
+		font-size: 12px;
+	}
+	.date {
+		font-size: 12px;
+	}
+	.seeAllBtn {
+		font-size: 12px;
+	}
+}
+@media (max-width: 400px) {
+	.card {
+		height: 90px;
+	}
+	.cardInsideUpperDiv {
+		height: 20px;
+	}
+	.coinLogoMainDiv {
+		width: 40px;
+		border-radius: 20px;
+	}
+	.logo {
+		height: 40px;
+		width: 40px;
+		border-radius: 20px;
+	}
+	.date {
+		font-size: 10px;
+	}
+	.singleStatusIcon {
+		height: 15px;
+		width: 15px;
+		object-fit: contain;
+		margin-right: 2px;
+		border-radius: 7.5px;
+	}
+	.event {
+		font-size: 14px;
+		font-weight: 600;
+		padding: 0 10px;
+	}
+	.infoDiv {
+		background-color: rgba(255, 166, 0, 0);
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 10px;
+		height: 30px;
+	}
+	.tag {
+		background-color: rgba(114, 128, 250, 0);
+		font-size: 9px;
+		font-weight: 500;
+		padding: 0 4px;
+		height: 18px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 4px;
+	}
+}

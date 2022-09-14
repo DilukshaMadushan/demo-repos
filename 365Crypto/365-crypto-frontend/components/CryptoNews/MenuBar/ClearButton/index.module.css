@@ -1,0 +1,46 @@
+.mainDiv {
+  font-family: Montserrat;
+  color: rgb(255, 255, 255);
+  position: relative;
+  background-color: rgba(129, 129, 129, 0);
+  width: 100%;
+}
+
+.dropdownBtn {
+  background-color: #232327;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 1px solid white;
+  font-size: 12px;
+  padding: 0 10px;
+}
+.dropdownBtn:hover {
+  filter: brightness(1.5);
+}
+
+.titleSpan {
+  background-color: rgba(255, 99, 71, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .dropdownBtn {
+    height: 30px;
+    font-size: 10px;
+  }
+
+  .titleSpan {
+    background-color: rgba(255, 99, 71, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}

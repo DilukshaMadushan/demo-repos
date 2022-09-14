@@ -1,0 +1,44 @@
+.top-nav {
+	height: 150px;
+}
+
+.top-nav-mob {
+	display: none;
+}
+
+.side-nav {
+	height: 100%;
+}
+
+.bg-container {
+	background-color: #15141b;
+}
+
+.scroll-view {
+	height: calc(100vh - 150px);
+	overflow-y: scroll;
+}
+
+.modal {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@media (max-width: 1200px) {
+	.top-nav {
+		display: none;
+	}
+	.top-nav-mob {
+		display: flex;
+		height: 120px;
+		position: sticky;
+	}
+	.side-nav {
+		display: none;
+	}
+	.scroll-view {
+		height: calc(100vh - 120px);
+		padding-top: 0px;
+	}
+}

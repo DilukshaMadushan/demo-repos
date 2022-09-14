@@ -1,0 +1,43 @@
+.main-div {
+  background-color: #15141b;
+  margin-top: 20px;
+}
+
+.graph-gap {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.graph-div {
+  background-color: #232327;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  padding-left: 0%;
+  padding-right: 0%;
+  width: 98%;
+}
+
+@media (max-width: 767px) {
+  .main-div {
+    padding-top: 0;
+  }
+  .graph-gap {
+    margin-bottom: 0;
+  }
+  .graph-col {
+    margin-top: 10px;
+  }
+  .graph-div {
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .graph-div {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}

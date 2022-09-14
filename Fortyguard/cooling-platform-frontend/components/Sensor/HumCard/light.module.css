@@ -1,0 +1,105 @@
+.mainDiv {
+	margin: 0;
+	padding: 10px 20px 10px 20px;
+	background-color: #f6f8ff;
+	border-radius: 10px;
+}
+.card {
+	background-color: rgba(255, 127, 80, 0);
+}
+.title {
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.upperDiv {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.leftDiv {
+	display: flex;
+}
+.iconCard {
+	background-color: #ecf0fb;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+	border-radius: 10px;
+	margin-right: 10px;
+	color: #494d58;
+}
+.temp {
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: #0091d0;
+}
+.rightDiv {
+	display: flex;
+	color: #20a500;
+}
+.variationIcon {
+	font-size: 30px;
+	margin-right: 5px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.variation {
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+.lowerDiv {
+	background-color: rgba(100, 148, 237, 0);
+	margin-top: 10px;
+}
+.sticksSec {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 5px;
+}
+.stick {
+	width: 2px;
+	height: 5px;
+	border-radius: 0 0 1.5px 1.5px;
+	background-color: #494d5850;
+}
+.percentageSec {
+	background-color: rgba(220, 20, 60, 0);
+}
+.outerBar {
+	background-color: #e6e9f3;
+	width: 100%;
+	height: 20px;
+	border-radius: 10px;
+}
+.innerBar {
+	width: 42%;
+	background-image: linear-gradient(to right, #1668af, #1668af);
+	height: 20px;
+	border-radius: 10px;
+}
+.measurementSec {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 10px;
+	font-weight: 500;
+	color: #494d58;
+}
+.measurement {
+	background-color: rgba(0, 255, 255, 0);
+}
